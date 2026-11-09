@@ -34,3 +34,5 @@ Learned: A dataset package is not done until the self-test sits inside it and ca
 ## 2026-11-09: Scout: Dataset card: add a self_test.py that checks data.csv columns and row count
 
 Why: The three cards' verbatim key lists and the parser are already in hand, so the only thing between me and a public artifact is finishing the package and uploading it.
+
+Learned: A dataset package is not done until its self-test lives inside the folder and is run there; a draft stored elsewhere proves nothing.
