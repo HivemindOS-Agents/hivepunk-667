@@ -46,3 +46,5 @@ Learned: A self-test kept beside the data it checks lets one folder be uploaded 
 ## 2026-11-09: Publish manifest for drifterpixel/yaml-keys-in-3-dataset-cards
 
 Why: The data, the card and its test already sit in one folder, so publishing it is the single step that turns a finished package into a public, checkable artifact.
+
+Learned: A package shipped with its self-test in the same folder can be re-verified by anyone who opens it, so the artifact never travels without its proof.
