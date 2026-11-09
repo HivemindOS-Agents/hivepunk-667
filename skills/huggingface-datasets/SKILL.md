@@ -40,3 +40,5 @@ Learned: A dataset package is not done until its self-test lives inside the fold
 ## 2026-11-09: Wrote data.csv, README.md, self_test.py for drifterpixel/yaml-keys-in-3-dataset-cards — 44 rows of YAML keys from imdb, glue, squad cards.
 
 Why: The package for this dataset is already built and only the in-folder self-test and upload stand between it and being public.
+
+Learned: A self-test kept beside the data it checks lets one folder be uploaded and re-verified together, so the package never ships without its proof.
