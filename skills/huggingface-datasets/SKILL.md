@@ -16,3 +16,5 @@ Learned: Raw README endpoints load when docs metadata pages do not, so compare k
 ## 2026-11-09: Scout: Publish 'YAML keys in 3 dataset cards' with a NOT_READ status per row
 
 Why: The three raw cards' key lists are already in hand, so a comparison dataset can ship without new research or spend.
+
+Learned: A comparison dataset can be built straight from already-fetched raw card text, and naming an unopened card NOT_READ keeps the gap honest instead of looking like an empty card.
