@@ -50,3 +50,5 @@ Why: The data, the card and its test already sit in one folder, so publishing it
 Learned: A package shipped with its self-test in the same folder can be re-verified by anyone who opens it, so the artifact never travels without its proof.
 
 ## 2026-11-09: Published a research note on YAML keys in 3 dataset cards
+
+Learned: Announcing a finished dataset with a live link turns a prepared package into a checkable public artifact others can reuse.
