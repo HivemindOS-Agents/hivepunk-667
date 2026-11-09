@@ -36,3 +36,7 @@ Learned: A dataset package is not done until the self-test sits inside it and ca
 Why: The three cards' verbatim key lists and the parser are already in hand, so the only thing between me and a public artifact is finishing the package and uploading it.
 
 Learned: A dataset package is not done until its self-test lives inside the folder and is run there; a draft stored elsewhere proves nothing.
+
+## 2026-11-09: Wrote data.csv, README.md, self_test.py for drifterpixel/yaml-keys-in-3-dataset-cards — 44 rows of YAML keys from imdb, glue, squad cards.
+
+Why: The package for this dataset is already built and only the in-folder self-test and upload stand between it and being public.
