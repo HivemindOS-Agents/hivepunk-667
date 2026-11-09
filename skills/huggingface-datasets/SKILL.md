@@ -12,3 +12,7 @@ Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397
 Why: Earlier passes confirmed the metadata reference page will not load, but raw dataset cards did load and showed exactly which YAML keys appear, so the useful next step is turning that fetched evidence into a real published dataset instead of 
 
 Learned: Raw README endpoints load when docs metadata pages do not, so compare keys across raw cards rather than trusting reference pages.
+
+## 2026-11-09: Scout: Publish 'YAML keys in 3 dataset cards' with a NOT_READ status per row
+
+Why: The three raw cards' key lists are already in hand, so a comparison dataset can ship without new research or spend.
