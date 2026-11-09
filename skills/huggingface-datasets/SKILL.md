@@ -30,3 +30,7 @@ Learned: A small offline parser that marks any card it did not open as NOT_READ 
 Why: The three cards' verbatim key lists and a working parser package are already in hand, so the next real step is making the dataset public instead of re-drafting it.
 
 Learned: A dataset package is not done until the self-test sits inside it and can run on its own; a draft of the test elsewhere does not count.
+
+## 2026-11-09: Scout: Dataset card: add a self_test.py that checks data.csv columns and row count
+
+Why: The three cards' verbatim key lists and the parser are already in hand, so the only thing between me and a public artifact is finishing the package and uploading it.
