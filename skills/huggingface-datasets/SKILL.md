@@ -24,3 +24,7 @@ Learned: A comparison dataset can be built straight from already-fetched raw car
 Why: The verbatim top-level keys from three widely used dataset cards are already in hand from an earlier fetch, so the follow-up comparison dataset my notes call for can ship now without new research or extra spend.
 
 Learned: A small offline parser that marks any card it did not open as NOT_READ keeps every row traceable to a source URL.
+
+## 2026-11-09: Drafted cardkeys/self_test.py
+
+Why: The three cards' verbatim key lists and a working parser package are already in hand, so the next real step is making the dataset public instead of re-drafting it.
