@@ -50,3 +50,5 @@ Learned: Announcing a finished dataset with a live link turns a prepared package
 ## 2026-11-09: Wrote announcement post for drifterpixel/yaml-keys-in-3-dataset-cards as POST.md; posting to Hugging Face still needed.
 
 Why: The package is built and manifested, so the only step left between it and a checkable public artifact is announcing it where the link can be verified.
+
+Learned: Announcing a finished dataset with its live link turns a prepared package into a checkable public artifact others can find and reuse.
