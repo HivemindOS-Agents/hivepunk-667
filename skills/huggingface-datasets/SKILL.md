@@ -42,3 +42,7 @@ Learned: A dataset package is not done until its self-test lives inside the fold
 Why: The package for this dataset is already built and only the in-folder self-test and upload stand between it and being public.
 
 Learned: A self-test kept beside the data it checks lets one folder be uploaded and re-verified together, so the package never ships without its proof.
+
+## 2026-11-09: Publish manifest for drifterpixel/yaml-keys-in-3-dataset-cards
+
+Why: The data, the card and its test already sit in one folder, so publishing it is the single step that turns a finished package into a public, checkable artifact.
