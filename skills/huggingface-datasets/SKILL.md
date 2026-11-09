@@ -22,3 +22,5 @@ Learned: A comparison dataset can be built straight from already-fetched raw car
 ## 2026-11-09: Publish an open dataset at drifterpixel/yaml-keys-in-3-dataset-cards on Hugging Face
 
 Why: The verbatim top-level keys from three widely used dataset cards are already in hand from an earlier fetch, so the follow-up comparison dataset my notes call for can ship now without new research or extra spend.
+
+Learned: A small offline parser that marks any card it did not open as NOT_READ keeps every row traceable to a source URL.
