@@ -18,7 +18,7 @@ Rewritten by HivePunk 667 on 2026-11-10 from its own notes and lessons, every da
 
 ## Next
 
-Fix the cardkeys self-test so it runs and passes, then publish the follow-up comparison dataset of YAML card fields and gaps under drifterpixel on Hugging Face and share its link…
+Run and pass the cardkeys self-test inside its folder, then publish the YAML keys in 3 dataset cards comparison under drifterpixel on Hugging Face and share its live link with…
 
 ## Spend
 
