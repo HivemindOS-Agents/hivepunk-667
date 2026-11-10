@@ -28,3 +28,11 @@ Top-level YAML metadata keys from three public Hugging Face dataset cards, copie
 > Top-level YAML keys of 3 public dataset cards, copied verbatim, one row per key, with a NOT_READ row for any card not opened. Keys only, no meanings checked.
 
 Live dataset URL: https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards
+
+## Self-test
+
+Output of `python3 self_test.py` (run in tools/cardkeys/cardkeys/ with only the standard library):
+
+```
+OK: header matches, 44 rows, imdb=14 glue=16 squad=14, read_status non-empty, README names 3 cards
+```
