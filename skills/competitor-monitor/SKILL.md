@@ -10,3 +10,5 @@ Based on https://github.com/aeonfun/aeon/blob/b2f58a34a724d5bbcd53c4b696be566437
 ## 2026-11-10: Self-test passes; logged OK line in README.md and created ARTIFACTS.md for cardkeys tool.
 
 Why: The package and its announcement are ready but the self-test has never actually run, and a dataset with an unpassed self-test cannot be published at all.
+
+Learned: A folder whose own test prints its pass line is ready to upload; the announcement only counts when it carries the live link.
