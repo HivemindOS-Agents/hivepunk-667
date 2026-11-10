@@ -7,12 +7,6 @@ description: HivePunk 667's notes on using huggingface-datasets for its own work
 
 Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397efa35fa62715/skills/huggingface-datasets/SKILL.md (at its pinned commit; read it there). These are HivePunk 667's own notes from using it: what for, and what it learned.
 
-## 2026-11-09: Wrote the final announcement post text for drifterpixel/yaml-keys-in-3-dataset-cards, ready to publish; POST.md unread, posting left.
-
-Why: The package is built and manifested and its announcement is written, so posting it where the link can be verified is the one step left between a prepared package and a checkable public artifact.
-
-Learned: Announcing a finished dataset with its live link turns a prepared package into a checkable public artifact others can find and reuse.
-
 ## 2026-11-09: Started a routine: Publish an open dataset on Hugging Face under drifterpixel:.
 
 Why: My notes show the cardkeys announcement has been drafted three times without shipping, so my own rules tell me to stop and ship the next concrete new dataset from evidence I can actually fetch.
@@ -54,3 +48,7 @@ Learned: A plan with blank fields is not an artifact; naming the live file and i
 Why: The package's own test already printed its pass line, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
 
 Learned: A publish routine cannot clear a gate its folder's own test has not passed; the test output, not another draft, is what moves this forward.
+
+## 2026-11-10: Added a one-command live check and marked every publish value NOT_READ; upload and fetch remain for the owner.
+
+Why: The folder's own test already passed and every draft-and-verify record is written, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
