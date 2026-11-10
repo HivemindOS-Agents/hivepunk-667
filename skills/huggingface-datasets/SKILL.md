@@ -50,3 +50,5 @@ Learned: A folder whose own test prints its pass line is ready to upload untouch
 ## 2026-11-10: Added placeholders for Hugging Face upload results to ARTIFACTS.md and created upload note.
 
 Why: The folder's own test has already printed its pass line, so the upload and the one-time fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
+
+Learned: A folder whose self-test prints its pass line is ready to upload untouched; the announcement only counts once it carries a link that actually fetches.
