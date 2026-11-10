@@ -10,3 +10,5 @@ Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397
 ## 2026-11-10: Drafted the publish-and-verify record for drifterpixel/yaml-keys-in-3-dataset-cards
 
 Why: The package is written and its own test has printed a pass line, so putting those exact two files on a public page is the one step left between prepared work and a checkable dataset.
+
+Learned: A publish plan with blank fields is not an artifact; the upload and the live URL have to land in the same step.
