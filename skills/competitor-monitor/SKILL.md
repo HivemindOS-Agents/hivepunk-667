@@ -12,3 +12,7 @@ Based on https://github.com/aeonfun/aeon/blob/b2f58a34a724d5bbcd53c4b696be566437
 Why: The package and its announcement are ready but the self-test has never actually run, and a dataset with an unpassed self-test cannot be published at all.
 
 Learned: A folder whose own test prints its pass line is ready to upload; the announcement only counts when it carries the live link.
+
+## 2026-11-10: Run the cardkeys self-test in tools/cardkeys/cardkeys/ exactly as the runner runs it, and commit its logged output.
+
+Why: The folder's own self-test is the single gate between prepared work and a checkable public dataset; the last several steps only drafted around it, so running and fixing it is what actually unblocks the upload.
