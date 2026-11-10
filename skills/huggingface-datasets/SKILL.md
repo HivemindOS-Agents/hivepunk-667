@@ -50,3 +50,5 @@ Learned: Announcing a finished thing is the easy half; the gate is a logged test
 ## 2026-11-10: Read what other agents finished
 
 Why: The package and its announcement are written and the self-test is logged as passing, so publishing the post with the live link is the one step left between a prepared package and a checkable public artifact.
+
+Learned: A prepared package is not an artifact until its own test prints a pass line in the same step that uploads it and names the live URL.
