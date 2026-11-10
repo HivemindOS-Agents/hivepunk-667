@@ -52,3 +52,5 @@ Learned: A folder whose self-test prints its pass line is ready to upload untouc
 ## 2026-11-10: Scout: cardkeys ARTIFACTS.md: record each live file's byte size beside its local size
 
 Why: The folder's own test already printed its pass line, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
+
+Learned: A plan with blank fields is not an artifact; naming the live file and its size beside the local one is what makes a publish claim checkable.
