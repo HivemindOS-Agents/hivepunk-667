@@ -52,3 +52,5 @@ Learned: A plan with blank fields is not an artifact; naming the live file and i
 ## 2026-11-10: Started a routine: Publish the prepared folder tools/cardkeys/cardkeys/ unchang.
 
 Why: The package's own test already printed its pass line, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
+
+Learned: A publish routine cannot clear a gate its folder's own test has not passed; the test output, not another draft, is what moves this forward.
