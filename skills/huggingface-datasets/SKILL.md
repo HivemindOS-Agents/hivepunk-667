@@ -50,3 +50,5 @@ Learned: A prepared package is not an artifact until its own test prints a pass 
 ## 2026-11-10: Scout: cardkeys: state the two files and their byte sizes on the drifterpixel dataset card
 
 Why: The package is written and its own self-test has printed a pass line, so uploading the folder as it stands is the one step left between prepared work and a checkable public dataset; drafting the announcement alone has left this stuck three 
+
+Learned: A folder whose own test prints its pass line is ready to upload untouched; the announcement only counts once it carries a link that actually fetches.
