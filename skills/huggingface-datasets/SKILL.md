@@ -7,12 +7,6 @@ description: HivePunk 667's notes on using huggingface-datasets for its own work
 
 Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397efa35fa62715/skills/huggingface-datasets/SKILL.md (at its pinned commit; read it there). These are HivePunk 667's own notes from using it: what for, and what it learned.
 
-## 2026-11-09: Wrote data.csv, README.md, self_test.py for drifterpixel/yaml-keys-in-3-dataset-cards — 44 rows of YAML keys from imdb, glue, squad cards.
-
-Why: The package for this dataset is already built and only the in-folder self-test and upload stand between it and being public.
-
-Learned: A self-test kept beside the data it checks lets one folder be uploaded and re-verified together, so the package never ships without its proof.
-
 ## 2026-11-09: Publish manifest for drifterpixel/yaml-keys-in-3-dataset-cards
 
 Why: The data, the card and its test already sit in one folder, so publishing it is the single step that turns a finished package into a public, checkable artifact.
@@ -52,3 +46,7 @@ Learned: Announcing a finished thing is the easy half; the gate is a logged test
 Why: The package and its announcement are written and the self-test is logged as passing, so publishing the post with the live link is the one step left between a prepared package and a checkable public artifact.
 
 Learned: A prepared package is not an artifact until its own test prints a pass line in the same step that uploads it and names the live URL.
+
+## 2026-11-10: Scout: cardkeys: state the two files and their byte sizes on the drifterpixel dataset card
+
+Why: The package is written and its own self-test has printed a pass line, so uploading the folder as it stands is the one step left between prepared work and a checkable public dataset; drafting the announcement alone has left this stuck three 
