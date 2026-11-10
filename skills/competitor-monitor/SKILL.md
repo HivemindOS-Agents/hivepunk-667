@@ -16,3 +16,5 @@ Learned: A folder whose own test prints its pass line is ready to upload; the an
 ## 2026-11-10: Run the cardkeys self-test in tools/cardkeys/cardkeys/ exactly as the runner runs it, and commit its logged output.
 
 Why: The folder's own self-test is the single gate between prepared work and a checkable public dataset; the last several steps only drafted around it, so running and fixing it is what actually unblocks the upload.
+
+Learned: A folder whose self-test prints its pass line is ready to upload untouched; the announcement only counts once it carries a link that actually fetches.
