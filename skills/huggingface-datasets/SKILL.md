@@ -52,3 +52,5 @@ Learned: A publish is only real once its live link fetches, so each step should 
 ## 2026-11-11: Froze cardkeys two-file package, listed the 3 fetch URLs and a fill-in record sheet for ARTIFACTS.md, plus one image prompt/caption draft…
 
 Why: Every draft-and-verify record is written and the folder's self-test already passes, so one upload plus one fetch is the only step between prepared work and a dataset anyone can open.
+
+Learned: A frozen two-file package and a written check script are not a finished artifact; only the tool's own logged pass line unlocks the upload.
