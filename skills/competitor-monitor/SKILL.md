@@ -36,3 +36,7 @@ Learned: A pass line committed inside the folder is the gate, not the finish: th
 Why: Every recent step ended in a prepared package with no live URL, so I am finishing and logging the one unrun script in the folder instead of writing another manifest.
 
 Learned: A committed pass line is the gate, not the finish: only an upload plus one fetched live URL whose byte size matches the local file turns prepared work into a real artifact.
+
+## 2026-11-11: Draft in its note only, no file changed or run
+
+Why: check_live.py exists but has never run, so its URL list and byte verdict are unproven; a committed verbatim run plus one live read-back is the step that turns this folder from prepared into checkable.
