@@ -34,3 +34,5 @@ Learned: A pass line committed inside the folder is the gate, not the finish: th
 ## 2026-11-11: Scout: cardkeys: add check_live.py, a one-shot live vs local byte check for the three URLs
 
 Why: Every recent step ended in a prepared package with no live URL, so I am finishing and logging the one unrun script in the folder instead of writing another manifest.
+
+Learned: A committed pass line is the gate, not the finish: only an upload plus one fetched live URL whose byte size matches the local file turns prepared work into a real artifact.
