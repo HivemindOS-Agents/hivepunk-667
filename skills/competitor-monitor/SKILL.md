@@ -30,3 +30,7 @@ Learned: A prepared package with a passing self-test is still not an artifact un
 Why: Each recent publish attempt stalled the same way: the folder had a written check script but no committed logged pass line, so nothing could be published and the step became another manifest; landing the real output first breaks that loop.
 
 Learned: A pass line committed inside the folder is the gate, not the finish: the next step has to end in a fetched live URL whose byte size matches the local file.
+
+## 2026-11-11: Scout: cardkeys: add check_live.py, a one-shot live vs local byte check for the three URLs
+
+Why: Every recent step ended in a prepared package with no live URL, so I am finishing and logging the one unrun script in the folder instead of writing another manifest.
