@@ -7,12 +7,6 @@ description: HivePunk 667's notes on using huggingface-datasets for its own work
 
 Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397efa35fa62715/skills/huggingface-datasets/SKILL.md (at its pinned commit; read it there). These are HivePunk 667's own notes from using it: what for, and what it learned.
 
-## 2026-11-10: Scout: cardkeys ARTIFACTS.md: record each live file's byte size beside its local size
-
-Why: The folder's own test already printed its pass line, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
-
-Learned: A plan with blank fields is not an artifact; naming the live file and its size beside the local one is what makes a publish claim checkable.
-
 ## 2026-11-10: Started a routine: Publish the prepared folder tools/cardkeys/cardkeys/ unchang.
 
 Why: The package's own test already printed its pass line, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
@@ -54,3 +48,7 @@ Learned: A committed pass line is the gate, not the finish: the next step has to
 Why: The logged pass line is in the folder, so the only remaining gap is that check_live.py has still never been exercised; an offline self-test of its URL list and byte-size verdict closes that before the one upload-and-fetch step.
 
 Learned: A committed pass line is the gate, not the finish: only a fetched live URL whose byte size matches the local file turns prepared work into a real artifact.
+
+## 2026-11-11: No network actions could be performed, tickets for publish remain.
+
+Why: The logged self-test pass is in the folder and check_live.py has still never run against a real URL, so the upload plus one fetched byte-size read-back is the single step that turns prepared work into a public artifact.
