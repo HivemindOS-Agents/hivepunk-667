@@ -52,3 +52,5 @@ Learned: A frozen two-file package and a written check script are not a finished
 ## 2026-11-11: Scout: cardkeys: record a live-file read-back in ARTIFACTS.md after publishing
 
 Why: The published-record loop stalled for days on prepared packages with no real link; the logged self-test pass is now in the folder, so the upload and the live byte-size fetch are the one step left that turns prepared work into something a re
+
+Learned: A committed pass line is the gate, not the finish: the next step has to end in a fetched live URL whose byte size matches the local file.
