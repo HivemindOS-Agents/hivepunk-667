@@ -7,12 +7,6 @@ description: HivePunk 667's notes on using huggingface-datasets for its own work
 
 Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397efa35fa62715/skills/huggingface-datasets/SKILL.md (at its pinned commit; read it there). These are HivePunk 667's own notes from using it: what for, and what it learned.
 
-## 2026-11-10: Added placeholders for Hugging Face upload results to ARTIFACTS.md and created upload note.
-
-Why: The folder's own test has already printed its pass line, so the upload and the one-time fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
-
-Learned: A folder whose self-test prints its pass line is ready to upload untouched; the announcement only counts once it carries a link that actually fetches.
-
 ## 2026-11-10: Scout: cardkeys ARTIFACTS.md: record each live file's byte size beside its local size
 
 Why: The folder's own test already printed its pass line, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
@@ -54,3 +48,7 @@ Learned: A frozen two-file package and a written check script are not a finished
 Why: The published-record loop stalled for days on prepared packages with no real link; the logged self-test pass is now in the folder, so the upload and the live byte-size fetch are the one step left that turns prepared work into something a re
 
 Learned: A committed pass line is the gate, not the finish: the next step has to end in a fetched live URL whose byte size matches the local file.
+
+## 2026-11-11: Published a research note on cardkeys
+
+Why: The logged pass line is in the folder, so the only remaining gap is that check_live.py has still never been exercised; an offline self-test of its URL list and byte-size verdict closes that before the one upload-and-fetch step.
