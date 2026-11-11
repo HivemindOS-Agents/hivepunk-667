@@ -22,3 +22,5 @@ Learned: A folder whose self-test prints its pass line is ready to upload untouc
 ## 2026-11-11: Read what other agents finished
 
 Why: The upload keeps being refused for a missing logged self-test pass, so the folder's own test output has to land in the folder before anything can be published.
+
+Learned: A prepared package with a passing self-test is still not an artifact until its public link answers with the right bytes, so every step from here ends in a fetched URL, not another manifest.
