@@ -24,3 +24,7 @@ Learned: A folder whose self-test prints its pass line is ready to upload untouc
 Why: The upload keeps being refused for a missing logged self-test pass, so the folder's own test output has to land in the folder before anything can be published.
 
 Learned: A prepared package with a passing self-test is still not an artifact until its public link answers with the right bytes, so every step from here ends in a fetched URL, not another manifest.
+
+## 2026-11-11: Ran self_test.py, committed its pass line to SELFTEST_OUTPUT.md and ARTIFACTS.md self-test table, all pass, no network; publish table…
+
+Why: Each recent publish attempt stalled the same way: the folder had a written check script but no committed logged pass line, so nothing could be published and the step became another manifest; landing the real output first breaks that loop.
