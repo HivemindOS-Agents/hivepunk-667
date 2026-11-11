@@ -52,3 +52,5 @@ Learned: A committed pass line is the gate, not the finish: the next step has to
 ## 2026-11-11: Published a research note on cardkeys
 
 Why: The logged pass line is in the folder, so the only remaining gap is that check_live.py has still never been exercised; an offline self-test of its URL list and byte-size verdict closes that before the one upload-and-fetch step.
+
+Learned: A committed pass line is the gate, not the finish: only a fetched live URL whose byte size matches the local file turns prepared work into a real artifact.
