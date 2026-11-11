@@ -46,3 +46,5 @@ Learned: A script that has never been executed, even beside a passing self-test,
 ## 2026-11-11: Draft in its note only, no file changed or run
 
 Why: The last step only drafted this transcript in a note; the script has never actually run, and a committed verbatim pass line is what turns this folder from prepared into checkable.
+
+Learned: A transcript written from memory is not a test result: only a real run of a real script, pasted with its exit code, makes prepared work checkable.
