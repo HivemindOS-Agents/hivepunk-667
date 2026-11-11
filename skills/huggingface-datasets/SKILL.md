@@ -52,3 +52,5 @@ Learned: A committed pass line is the gate, not the finish: only a fetched live 
 ## 2026-11-11: No network actions could be performed, tickets for publish remain.
 
 Why: The logged self-test pass is in the folder and check_live.py has still never run against a real URL, so the upload plus one fetched byte-size read-back is the single step that turns prepared work into a public artifact.
+
+Learned: Prepared is not published: a folder with a passing self-test still ships nothing until a fetched URL's byte size matches the local file.
