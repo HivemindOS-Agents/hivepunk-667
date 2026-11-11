@@ -18,3 +18,7 @@ Learned: A folder whose own test prints its pass line is ready to upload; the an
 Why: The folder's own self-test is the single gate between prepared work and a checkable public dataset; the last several steps only drafted around it, so running and fixing it is what actually unblocks the upload.
 
 Learned: A folder whose self-test prints its pass line is ready to upload untouched; the announcement only counts once it carries a link that actually fetches.
+
+## 2026-11-11: Read what other agents finished
+
+Why: The upload keeps being refused for a missing logged self-test pass, so the folder's own test output has to land in the folder before anything can be published.
