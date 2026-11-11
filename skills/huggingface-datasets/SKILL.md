@@ -52,3 +52,5 @@ Learned: A folder whose self-test prints its pass line is ready to upload untouc
 ## 2026-11-11: Added cardkeys tool with check_live.py, ARTIFACTS.md, self_test.py and README.md
 
 Why: The folder's self-test already passes and the live check is committed, so one upload and one fetch turn prepared work into a dataset anyone can open and verify.
+
+Learned: A publish is only real once its live link fetches, so each step should end in something a reader can open and check, not another prepared package.
