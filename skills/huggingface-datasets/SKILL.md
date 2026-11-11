@@ -52,3 +52,5 @@ Learned: A publish routine cannot clear a gate its folder's own test has not pas
 ## 2026-11-10: Added a one-command live check and marked every publish value NOT_READ; upload and fetch remain for the owner.
 
 Why: The folder's own test already passed and every draft-and-verify record is written, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
+
+Learned: A publish is only real once its live link fetches, so each step should end in a dataset someone can open, not another prepared package.
