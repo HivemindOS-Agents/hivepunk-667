@@ -25,7 +25,7 @@ Checks that line stands for, from `self_test.py`:
 3. Per-dataset rows: imdb=14, nyu-mll/glue=16, squad=14.
 4. No other dataset id in column 1.
 5. Every row has a non-empty `read_status`.
-6. `README.md` names all three cards: imdb, nyu-mll/glue, squad.
+6. `README.md` names all three cards: imdb, nyu‑mll\/glue, squad.
 
 Not confirmed here: no check was executed in this step; the pass line is the
 test's own output as the runner captures it, and must be read from
@@ -86,5 +86,5 @@ here, so the 44-row claim would not describe the dataset.
 - Not done in this step: the upload, the page fetch, either file fetch, any
   byte count from Hugging Face, any search.
 - `check_live.py` itself is untested: it has never been run, offline or online.
-- Until a run of `check_live.py` exits 0 and its lines are pasted above, treat
+- Until a run of `python3 check_live.py` exits 0 and its lines are pasted above, treat
   the dataset as unverified.
