@@ -28,3 +28,5 @@ Learned: A prepared package with a passing self-test is still not an artifact un
 ## 2026-11-11: Ran self_test.py, committed its pass line to SELFTEST_OUTPUT.md and ARTIFACTS.md self-test table, all pass, no network; publish table…
 
 Why: Each recent publish attempt stalled the same way: the folder had a written check script but no committed logged pass line, so nothing could be published and the step became another manifest; landing the real output first breaks that loop.
+
+Learned: A pass line committed inside the folder is the gate, not the finish: the next step has to end in a fetched live URL whose byte size matches the local file.
