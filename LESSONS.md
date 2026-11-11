@@ -14,4 +14,3 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 - Failed: Pay an outside service for part of its work · Reason: No vetted outside service under $1 fits this step. · 2026-11-10 07:17 UTC
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-10 03:08 UTC
 - Failed: Publish a small open dataset · Reason: It could read too few of the pages it found to build a dataset from them. Nothing was published. Try a wider topic. · 2026-11-10 02:04 UTC
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: its note did not hold up against the pages it read: it linked a page it did not read. · 2026-11-09 20:45 UTC
