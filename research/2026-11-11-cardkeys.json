@@ -1,0 +1,177 @@
+{
+  "v": 1,
+  "kind": "research-receipt",
+  "agent": "667",
+  "name": "HivePunk 667",
+  "at": "2026-11-11T12:39:11.697Z",
+  "subject": "cardkeys",
+  "subjectKind": "tool",
+  "chain": {
+    "id": null,
+    "name": "unknown",
+    "read": "unknown"
+  },
+  "address": null,
+  "thesis": "The pages agree on the general shape: a tool that ships a self-test but nothing runs (or a package whose files are never fetched) has an unbacked claim, and cardkeys sits on the unbacked side because no page shows its check_live.py, its self_test.py or a resolved publish URL. So the step described is consistent with the surrounding practice, but from what I read it is still a plan, not a verified pass.",
+  "claims": [
+    {
+      "id": "s1",
+      "label": "FACT",
+      "text": "HivemindOS-Agents/bee-scouts has 16 raw commits in the last 30 days, 0 of them real work (not docs, formatting, bots, templates or trivial).",
+      "check": "shipping",
+      "source": "https://api.github.com/repos/HivemindOS-Agents/bee-scouts/commits?per_page=50&since=2026-10-12T12:39:19.327Z"
+    },
+    {
+      "id": "s2",
+      "label": "UNKNOWN",
+      "text": "Whether HivemindOS-Agents/bee-scouts is still shipping",
+      "check": "shipping",
+      "missing": "None of its commits in the last 30 days is real work."
+    },
+    {
+      "id": "c1",
+      "label": "FACT",
+      "text": "Issue #138 describes a folder tools/cardkeys/cardkeys/ holding data.csv and README.md, and asks that the published dataset page name those two files only, with one line and a two-column Files table added to README.md.",
+      "check": "page",
+      "source": "https://github.com/HivemindOS-Agents/bee-scouts/issues/138"
+    },
+    {
+      "id": "c2",
+      "label": "FACT",
+      "text": "That issue states data.csv has the header dataset,source_url,key_order,key,read_status and 44 data rows, and gives an imdb example row with read_status NOT_READ.",
+      "check": "page",
+      "source": "https://github.com/HivemindOS-Agents/bee-scouts/issues/138"
+    },
+    {
+      "id": "c3",
+      "label": "FACT",
+      "text": "That issue says a third file should not be added because open issue #135 already proposes self_test.py for the same repo, and that after publishing each listed file link should be fetched once to confirm it resolves.",
+      "check": "page",
+      "source": "https://github.com/HivemindOS-Agents/bee-scouts/issues/138"
+    },
+    {
+      "id": "c4",
+      "label": "FACT",
+      "text": "Engine pull request #1912 states that a tool declaring --self-test claims it can be verified without its real inputs, that the flag must be named by a ctest row, a workflow step or another test, and that its checker found 9 declaring tools with 8 having a runner before whisper_encoder_baseline.py…",
+      "check": "page",
+      "source": "https://github.com/1bit-MONSTER/engine/pull/1912"
+    },
+    {
+      "id": "c5",
+      "label": "FACT",
+      "text": "Engine pull request #1916 widens that rule to any tools/*.py that declares a self-test, reports 73 scripts and 17 self-testing tools referenced, and notes the sweep names offenders when both registrations are commented out.",
+      "check": "page",
+      "source": "https://github.com/1bit-MONSTER/engine/pull/1916"
+    },
+    {
+      "id": "c6",
+      "label": "FACT",
+      "text": "A stockholm-life pull request adds tools/live_check.py, a read-only check that the published site serves exactly one explicit commit, comparing each live file by Git blob ID, treating a one-off CDN difference as INCONCLUSIVE rather than FAIL, and using exit codes 0 PASS, 1 FAIL, 2 INCONCLUSIVE, 3…",
+      "check": "page",
+      "source": "https://github.com/seunajetomobi/stockholm-life/pull/8"
+    },
+    {
+      "id": "c7",
+      "label": "FACT",
+      "text": "A U00 pull request adds python -m tools.self_test, which prints PASS, FAIL or SKIPPED with a one-line reason, writes a self-test report file, and exits 1 only if a check failed.",
+      "check": "page",
+      "source": "https://github.com/zkaelxz/U00/pull/1226"
+    },
+    {
+      "id": "c8",
+      "label": "FACT",
+      "text": "The bee-scouts commits API shows 16 commits since 2026-10-12, comprising health log and health status messages plus FROZEN.md and MONITOR.md edits and commits titled bee-scouts: where HivemindOS's bees do public work and README: leave the launchpad link out until it launches.",
+      "check": "page",
+      "source": "https://api.github.com/repos/HivemindOS-Agents/bee-scouts/commits?per_page=50&since=2026-10-12T12:39:19.327Z"
+    },
+    {
+      "id": "c9",
+      "label": "DERIVED",
+      "text": "The cardkeys change tracked in issue #138 is still a proposal, since the issue remains open and carries the label 'Written by a bee on a scout mission; a person decides'.",
+      "check": "page",
+      "inputs": [
+        "c1",
+        "c3"
+      ],
+      "math": "Both cited statements come from the same open issue page whose labels say a person decides; an open proposal is not a merged or published state."
+    },
+    {
+      "id": "c10",
+      "label": "DERIVED",
+      "text": "None of the pages read documents cardkeys' own check_live.py, its --offline mode, or the three fetch URLs the step names, so the self-test extension described in the step is unverified from these sources.",
+      "check": "page",
+      "inputs": [
+        "c1"
+      ],
+      "math": "The only cardkeys-specific page (c1) mentions data.csv, README.md and issue #135's self_test.py proposal, and names no check_live.py, no offline mode and no URLs."
+    },
+    {
+      "id": "c11",
+      "label": "UNKNOWN",
+      "text": "Whether the two cardkeys files have been published and what byte sizes the live URLs return.",
+      "check": "page",
+      "missing": "A fetched public page or download URL for drifterpixel/yaml-keys-in-3-dataset-cards showing the two files and their sizes."
+    },
+    {
+      "id": "c12",
+      "label": "UNKNOWN",
+      "text": "Whether cardkeys' self-test is registered with anything that runs it, on the standard the engine pages set.",
+      "check": "page",
+      "missing": "A workflow step, ctest row or sibling test naming cardkeys' self-test, or the tool's own committed pass output."
+    }
+  ],
+  "counts": {
+    "fact": 9,
+    "derived": 2,
+    "unknown": 3
+  },
+  "risks": [
+    "No page I read shows cardkeys' check_live.py or its --offline mode, so the self-test extension the step describes is unverified from sources",
+    "The only cardkeys page is an open proposal labelled 'a person decides; an agent never merges anything', so it is a plan, not a merged or published state [https://github.com/HivemindOS-Agents/bee-scouts/issues/138]",
+    "The same issue warns that open issue #135 already proposes self_test.py for the same repo, so overlapping work could duplicate rather than extend the path",
+    "bee-scouts' last 30 days hold health logs and metadata edits rather than real work, which is weak evidence that the surrounding process is still shipping [https://api.github.com/repos/HivemindOS-Agents/bee-scouts/commits?per_page=50&since=2026-10-12T12:39:19.327Z]",
+    "The pattern shown in the engine pages is that a declared --self-test with no runner is an unbacked claim, and nothing I read confirms a runner names cardkeys' self-test [https://github.com/1bit-MONSTER/engine/pull/1916]"
+  ],
+  "unknowns": [
+    "Whether HivemindOS-Agents/bee-scouts is still shipping: None of its commits in the last 30 days is real work.",
+    "Whether the two cardkeys files have been published and what byte sizes the live URLs return.: A fetched public page or download URL for drifterpixel/yaml-keys-in-3-dataset-cards showing the two files and their sizes.",
+    "Whether cardkeys' self-test is registered with anything that runs it, on the standard the engine pages set.: A workflow step, ctest row or sibling test naming cardkeys' self-test, or the tool's own committed pass output."
+  ],
+  "wouldChangeMind": [
+    "Finding tools/cardkeys/cardkeys/check_live.py and self_test.py in the repo with the three fetch URLs and verdict strings actually implemented",
+    "A fetched dataset page at drifterpixel/yaml-keys-in-3-dataset-cards showing data.csv and README.md with byte sizes matching local copies",
+    "A runner (ctest row, workflow step or sibling test) that names cardkeys' self-test and shows a pass line"
+  ],
+  "sources": [
+    {
+      "title": "cardkeys: state the two files and their byte sizes on the drifterpixel dataset card · Issue #138 · HivemindOS-Agents/bee-scouts · GitHub",
+      "url": "https://github.com/HivemindOS-Agents/bee-scouts/issues/138"
+    },
+    {
+      "title": "tools: a tool that declares --self-test must be run by something (Fixes #1901) by bong-water-water-bong · Pull Request #1912 · 1bit-MONSTER/",
+      "url": "https://github.com/1bit-MONSTER/engine/pull/1912"
+    },
+    {
+      "title": "W-SELF-TEST: python -m tools.self_test (one-run hardware checks) by zkaelxz · Pull Request #1226 · zkaelxz/U00 · GitHub",
+      "url": "https://github.com/zkaelxz/U00/pull/1226"
+    },
+    {
+      "title": "Add tools/live_check.py: read-only live verification of a deployed commit by seunajetomobi · Pull Request #8 · seunajetomobi/stockholm-life ",
+      "url": "https://github.com/seunajetomobi/stockholm-life/pull/8"
+    },
+    {
+      "title": "How to test docs code examples that need API keys (without leaking secrets) - DEV Community",
+      "url": "https://dev.to/docsalive/how-to-test-docs-code-examples-that-need-api-keys-without-leaking-secrets-4l1k"
+    },
+    {
+      "title": "tools: register the self-tests nothing ran, and teach the sweep to see a tools/*.py at all (fixes #1901) by bong-water-water-bong · Pull Req",
+      "url": "https://github.com/1bit-MONSTER/engine/pull/1916"
+    },
+    {
+      "title": "GitHub commits of HivemindOS-Agents/bee-scouts",
+      "url": "https://api.github.com/repos/HivemindOS-Agents/bee-scouts/commits?per_page=50&since=2026-10-12T12:39:19.327Z"
+    }
+  ],
+  "note": "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/research/2026-11-11-cardkeys.md",
+  "decidedBy": "bee"
+}
