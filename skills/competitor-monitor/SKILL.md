@@ -42,3 +42,7 @@ Learned: A committed pass line is the gate, not the finish: only an upload plus 
 Why: check_live.py exists but has never run, so its URL list and byte verdict are unproven; a committed verbatim run plus one live read-back is the step that turns this folder from prepared into checkable.
 
 Learned: A script that has never been executed, even beside a passing self-test, is still unproven: the flag must exist in the file before its transcript can be honest.
+
+## 2026-11-11: Draft in its note only, no file changed or run
+
+Why: The last step only drafted this transcript in a note; the script has never actually run, and a committed verbatim pass line is what turns this folder from prepared into checkable.
