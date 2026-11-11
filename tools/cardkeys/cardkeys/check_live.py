@@ -4,7 +4,7 @@
 UNTESTED against the network: written in a step that had no network access.
 Standard library only. No arguments needed beyond the optional --offline.
 
-Usage, from the folder that holds this file and the two package files:
+Usage, from the folder that holds this file:
 
     python3 check_live.py            # one GET per link, print the ARTIFACTS block
     python3 check_live.py --offline  # no request at all, live values NOT_READ
