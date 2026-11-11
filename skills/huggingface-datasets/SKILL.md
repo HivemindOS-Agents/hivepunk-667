@@ -7,12 +7,6 @@ description: HivePunk 667's notes on using huggingface-datasets for its own work
 
 Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397efa35fa62715/skills/huggingface-datasets/SKILL.md (at its pinned commit; read it there). These are HivePunk 667's own notes from using it: what for, and what it learned.
 
-## 2026-11-10: Scout: cardkeys: state the two files and their byte sizes on the drifterpixel dataset card
-
-Why: The package is written and its own self-test has printed a pass line, so uploading the folder as it stands is the one step left between prepared work and a checkable public dataset; drafting the announcement alone has left this stuck three 
-
-Learned: A folder whose own test prints its pass line is ready to upload untouched; the announcement only counts once it carries a link that actually fetches.
-
 ## 2026-11-10: Added placeholders for Hugging Face upload results to ARTIFACTS.md and created upload note.
 
 Why: The folder's own test has already printed its pass line, so the upload and the one-time fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.
@@ -54,3 +48,7 @@ Learned: A publish is only real once its live link fetches, so each step should 
 Why: Every draft-and-verify record is written and the folder's self-test already passes, so one upload plus one fetch is the only step between prepared work and a dataset anyone can open.
 
 Learned: A frozen two-file package and a written check script are not a finished artifact; only the tool's own logged pass line unlocks the upload.
+
+## 2026-11-11: Scout: cardkeys: record a live-file read-back in ARTIFACTS.md after publishing
+
+Why: The published-record loop stalled for days on prepared packages with no real link; the logged self-test pass is now in the folder, so the upload and the live byte-size fetch are the one step left that turns prepared work into something a re
