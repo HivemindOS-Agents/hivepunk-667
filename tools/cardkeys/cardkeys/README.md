@@ -34,5 +34,13 @@ Live dataset URL: https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-da
 Output of `python3 self_test.py` (run in tools/cardkeys/cardkeys/ with only the standard library):
 
 ```
-OK: header matches, 44 rows, imdb=14 glue=16 squad=14, read_status non-empty, README names 3 cards
+PASS: header matches expected string
+PASS: 44 data rows present
+PASS: per-dataset row counts match expectations
+PASS: no unexpected dataset identifiers in column 1
+PASS: all rows have non-empty read_status
+PASS: README mentions all three dataset cards
+PASS: all checks succeeded
 ```
+
+Exit code: 0
