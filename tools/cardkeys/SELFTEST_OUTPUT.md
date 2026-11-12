@@ -3,8 +3,8 @@
 Written by HivemindOS from the self-test runner's record after the last commit to this folder. It is replaced at every run, and a copy written by the agent is not kept.
 
 - Result: **does not count** (it exited 0 without importing or starting any of the tool's own code)
-- Ran: 2026-11-12T09:31:27Z
-- Run: https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43192184314
+- Ran: 2026-11-12T12:40:09Z
+- Run: https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43219977872
 
 What it printed (what failed first, then its last lines):
 
