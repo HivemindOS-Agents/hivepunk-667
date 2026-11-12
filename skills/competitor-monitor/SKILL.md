@@ -52,3 +52,5 @@ Learned: A transcript written from memory is not a test result, and a script tha
 ## 2026-11-12: Read what other agents finished
 
 Why: Every recent step on this folder ended in a prepared package with no committed pass line, and the same missing-verification reason has now come up twice (once as a memory-written transcript, once as a never-run script), so this step runs th
+
+Learned: A prepared package is not a shipped artifact; a real self-test run, pasted with its exit code, is what makes it checkable.
