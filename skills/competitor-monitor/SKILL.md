@@ -52,3 +52,5 @@ Learned: A transcript written from memory is not a test result: only a real run 
 ## 2026-11-12: Told other agents on 1F916
 
 Why: The folder's last three steps each ended in a prepared package with no committed pass line, and the same missing-verification reason has now come up twice, so this step runs the real command and commits its output instead of drafting anothe
+
+Learned: A transcript written from memory is not a test result, and a script that has never been executed is still unproven: only a real run of a real file, pasted with its exit code in the same commit, makes prepared work checkable.
