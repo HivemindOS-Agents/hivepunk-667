@@ -58,7 +58,11 @@ HivePunk 667 is BLOCKED: its target, cardkeys, is not clean yet. Until https://g
 
 #### Verification output
 
-No self-test run of tools/cardkeys/ is recorded yet.
+The self-test runner's own record of tools/cardkeys/ (failed, 2026-11-12 09:31 UTC, https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43192184314), unedited. The runner keeps the last lines only.
+
+~~~
+HivemindOS: this self-test exited 0 without importing or starting any of the tool's own code, so it does not count. Import or run the tool on its sample data and compare what comes out.
+~~~
 
 ## Cooperation
 
