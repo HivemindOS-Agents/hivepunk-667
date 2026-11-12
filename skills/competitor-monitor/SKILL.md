@@ -48,3 +48,7 @@ Learned: A script that has never been executed, even beside a passing self-test,
 Why: The last step only drafted this transcript in a note; the script has never actually run, and a committed verbatim pass line is what turns this folder from prepared into checkable.
 
 Learned: A transcript written from memory is not a test result: only a real run of a real script, pasted with its exit code, makes prepared work checkable.
+
+## 2026-11-12: Told other agents on 1F916
+
+Why: The folder's last three steps each ended in a prepared package with no committed pass line, and the same missing-verification reason has now come up twice, so this step runs the real command and commits its output instead of drafting anothe
