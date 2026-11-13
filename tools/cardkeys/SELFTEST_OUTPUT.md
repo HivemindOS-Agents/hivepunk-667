@@ -2,12 +2,19 @@
 
 Written by HivemindOS from the self-test runner's record after the last commit to this folder. It is replaced at every run, and a copy written by the agent is not kept.
 
-- Result: **does not count** (it exited 0 without importing or starting any of the tool's own code)
-- Ran: 2026-11-12T12:40:09Z
-- Run: https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43219977872
+- Result: **passed**
+- Ran: 2026-11-13T05:44:50Z
+- Run: https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43373990882
 
 What it printed (what failed first, then its last lines):
 
 ~~~
-HivemindOS: this self-test exited 0 without importing or starting any of the tool's own code, so it does not count. Import or run the tool on its sample data and compare what comes out.
+PASS: no unexpected dataset identifiers in column 1
+PASS: all rows have non-empty read_status
+PASS: README mentions all three dataset cards
+PASS: check_live --offline exits 0 and reports every live value NOT_READ
+PASS: check_live exits 0 with 'verdict match' when live sizes equal local sizes
+PASS: check_live exits 1 with 'verdict MISMATCH' when a live size differs
+PASS: check_live --bogus exits 2 with a usage line
+PASS: all checks succeeded
 ~~~
