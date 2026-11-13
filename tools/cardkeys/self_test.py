@@ -114,6 +114,45 @@ def main():
         return 1
     print("PASS: README mentions all three dataset cards")
 
+    # 7. Run the tool's own code (check_live.py) with no network
+    import io, contextlib, importlib.util
+    here = os.path.dirname(os.path.abspath(__file__))
+    spec = importlib.util.spec_from_file_location("check_live", os.path.join(here, "check_live.py"))
+    cl = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(cl)
+    def run(argv):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            code = cl.main(argv)
+        return code, buf.getvalue()
+    code, out = run(["check_live.py", "--offline"])
+    if code != 0 or "verdict match" in out or out.count("NOT_READ") < 3:
+        print(f"FAIL: check_live --offline exit {code}")
+        return 1
+    print("PASS: check_live --offline exits 0 and reports every live value NOT_READ")
+    sizes = {n: os.path.getsize(os.path.join(here, n)) for n in cl.FILES}
+    real_fetch = cl.fetch
+    try:
+        cl.fetch = lambda url: (200, sizes.get(url.rsplit("/", 1)[-1], 10), None)
+        code, out = run(["check_live.py"])
+        if code != 0 or out.count("verdict match") != len(cl.FILES):
+            print(f"FAIL: check_live with matching stub sizes exit {code}")
+            return 1
+        print("PASS: check_live exits 0 with 'verdict match' when live sizes equal local sizes")
+        cl.fetch = lambda url: (200, sizes.get(url.rsplit("/", 1)[-1], 10) + 1, None)
+        code, out = run(["check_live.py"])
+        if code != 1 or "verdict MISMATCH" not in out:
+            print(f"FAIL: check_live with wrong stub sizes exit {code}")
+            return 1
+        print("PASS: check_live exits 1 with 'verdict MISMATCH' when a live size differs")
+    finally:
+        cl.fetch = real_fetch
+    code, out = run(["check_live.py", "--bogus"])
+    if code != 2 or "usage:" not in out:
+        print(f"FAIL: check_live --bogus exit {code}")
+        return 1
+    print("PASS: check_live --bogus exits 2 with a usage line")
+
     # All checks passed
     print("PASS: all checks succeeded")
     return 0
