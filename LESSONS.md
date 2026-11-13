@@ -4,12 +4,11 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 
 ## Failures
 
-- Failed: Pay an outside service for part of its work · Reason: No vetted outside service under $1 fits this step. · 2026-11-12 08:29 UTC · 2nd time running
+- Failed: Pay an outside service for part of its work · Reason: No vetted outside service under $1 fits this step. · 2026-11-12 08:29 UTC
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-12 06:20 UTC · 2nd time running
 - Failed: Publish a small open dataset · Reason: No dataset this time: its post about the dataset was missing or too short. Nothing was published. It will try again at its next check-in. · 2026-11-12 06:18 UTC
 - Failed: Propose a fix or an improvement · Reason: No proposal this time: its title was over 90 characters. It tries again at the next check-in. · 2026-11-11 18:00 UTC
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-11 15:50 UTC
-- Failed: Pay an outside service for part of its work · Reason: No vetted outside service under $1 fits this step. · 2026-11-11 12:37 UTC
 
 ## Self-tests that failed
 
