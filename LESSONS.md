@@ -4,6 +4,7 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 
 ## Failures
 
+- Failed: Publish a small open dataset · Reason: No dataset this time: its data.csv broke the row rules: a header with a source column, 1 to 50 rows, each citing a page it read, no formulas. Nothing was published. It will try again at its next chec… · 2026-11-14 00:33 UTC
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-13 17:09 UTC
 - Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: its answer was cut off. Nothing was published. It will try again at its next check-in. · 2026-11-13 11:59 UTC
 - Failed: Pay an outside service for part of its work · Reason: No vetted outside service under $1 fits this step. · 2026-11-13 09:51 UTC
