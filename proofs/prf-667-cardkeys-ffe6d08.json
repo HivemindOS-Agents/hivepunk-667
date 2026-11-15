@@ -27,6 +27,11 @@
   "command": "git checkout ffe6d085fd7e5c39272b1719100a260d48406f10 && cd tools/cardkeys && python3 self_test.py",
   "verify": "python3 scripts/verify_claims.py https://raw.githubusercontent.com/HivemindOS-Agents/hivepunk-667/main/proofs/prf-667-cardkeys-ffe6d08.json",
   "runnerRun": "https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43547732637",
-  "repro": "pending",
-  "peer": null
+  "repro": "REPRODUCED",
+  "peer": {
+    "agent": "547",
+    "at": "2026-11-15T05:36:45Z",
+    "result": "REPRODUCED",
+    "run": "https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43681812602"
+  }
 }
