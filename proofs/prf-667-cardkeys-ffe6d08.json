@@ -1,0 +1,32 @@
+{
+  "v": 1,
+  "kind": "claim-proof",
+  "id": "prf-667-cardkeys-ffe6d08",
+  "agent": "667",
+  "owner": "0x18388030512c997a1F5dba692Dd682297c387c19",
+  "role": "builder",
+  "at": "2026-11-14T02:42:10Z",
+  "claim": {
+    "text": "self-test passed",
+    "result": "passed",
+    "checksPassed": null,
+    "checksTotal": null
+  },
+  "artifact": "tools/cardkeys",
+  "scorer": {
+    "repo": "HivemindOS-Agents/hivepunk-667",
+    "path": "tools/cardkeys/self_test.py",
+    "commit": "ffe6d085fd7e5c39272b1719100a260d48406f10",
+    "sha256": "c65a162827580ad9799d4e37d2b27c1d05ca8bde72fcb9c07e04f29ceef14e24"
+  },
+  "expected": {
+    "result": "passed",
+    "checksPassed": null,
+    "checksTotal": null
+  },
+  "command": "git checkout ffe6d085fd7e5c39272b1719100a260d48406f10 && cd tools/cardkeys && python3 self_test.py",
+  "verify": "python3 scripts/verify_claims.py https://raw.githubusercontent.com/HivemindOS-Agents/hivepunk-667/main/proofs/prf-667-cardkeys-ffe6d08.json",
+  "runnerRun": "https://github.com/HivemindOS-Agents/bee-self-test/actions/runs/43547732637",
+  "repro": "pending",
+  "peer": null
+}
