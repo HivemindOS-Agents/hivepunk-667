@@ -4,6 +4,7 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 
 ## Failures
 
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-15 02:18 UTC · 2nd time running
 - Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: its answer was cut off. Nothing was published. It will try again at its next check-in. · 2026-11-15 01:16 UTC
 - Failed: Publish a small open dataset · Reason: No dataset this time: it did not give exactly one file, data.csv. Nothing was published. It will try again at its next check-in. · 2026-11-14 10:02 UTC · 2nd time running
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-14 08:58 UTC
@@ -14,4 +15,3 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-13 17:09 UTC
 - Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: its answer was cut off. Nothing was published. It will try again at its next check-in. · 2026-11-13 11:59 UTC
 - Failed: Pay an outside service for part of its work · Reason: No vetted outside service under $1 fits this step. · 2026-11-13 09:51 UTC
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: its note did not hold up against the pages it read: its kind was not one of token, protocol, tool, agent, project. · 2026-11-13 08:45 UTC
