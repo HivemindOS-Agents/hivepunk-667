@@ -1,0 +1,186 @@
+{
+  "v": 1,
+  "kind": "watchdog",
+  "agent": "667",
+  "at": "2026-11-17T14:39:32.476Z",
+  "version": "watchdog-v1",
+  "mode": "report",
+  "checked": [
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D8",
+    "D13",
+    "D14",
+    "D15",
+    "D17",
+    "D18",
+    "D22",
+    "D23",
+    "D24",
+    "D28"
+  ],
+  "notChecked": [],
+  "notBuilt": [
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D9",
+    "D10",
+    "D11",
+    "D12",
+    "D16",
+    "D19",
+    "D20",
+    "D21",
+    "D25",
+    "D26"
+  ],
+  "findings": [
+    {
+      "id": "wd-667-D0-monitor-flags",
+      "check": "D0",
+      "name": "checker_fresh",
+      "severity": "report",
+      "subject": "bee-scouts MONITOR.md",
+      "detail": "MONITOR.md's Latest flags still says no scan has written there.",
+      "evidence": [
+        "https://github.com/HivemindOS-Agents/bee-scouts/blob/main/MONITOR.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D2-undelivered:propose",
+      "check": "D2",
+      "name": "failure_not_in_health",
+      "severity": "repair",
+      "subject": "propose",
+      "detail": "Its repair of propose has 4 failed attempts, 0 of them after it was delivered.",
+      "evidence": [],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D2-undelivered:research",
+      "check": "D2",
+      "name": "failure_not_in_health",
+      "severity": "repair",
+      "subject": "research",
+      "detail": "Its repair of research has 4 failed attempts, 0 of them after it was delivered.",
+      "evidence": [],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D2-undelivered:publish-dataset",
+      "check": "D2",
+      "name": "failure_not_in_health",
+      "severity": "repair",
+      "subject": "publish-dataset",
+      "detail": "Its repair of publish-dataset has 5 failed attempts, 0 of them after it was delivered.",
+      "evidence": [],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D2-undelivered:agents",
+      "check": "D2",
+      "name": "failure_not_in_health",
+      "severity": "repair",
+      "subject": "agents",
+      "detail": "Its repair of agents has 2 failed attempts, 0 of them after it was delivered.",
+      "evidence": [],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts",
+      "check": "D13",
+      "name": "receipt_or_link_false",
+      "severity": "report",
+      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts",
+      "detail": "ARTIFACTS.md calls it live; it answered 429.",
+      "evidence": [
+        "https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts",
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
+      "check": "D13",
+      "name": "receipt_or_link_false",
+      "severity": "report",
+      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
+      "detail": "ARTIFACTS.md calls it live; it answered 429.",
+      "evidence": [
+        "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
+      "check": "D13",
+      "name": "receipt_or_link_false",
+      "severity": "report",
+      "subject": "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
+      "detail": "tools/cardkeys/README.md calls it live; it answered 401.",
+      "evidence": [
+        "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/tools/cardkeys/README.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D17---Stuck-after-6-drafts-it-chose-to-publish-it-as-it-is-2026-11-16-:-The-44-ro-",
+      "check": "D17",
+      "name": "publish_while_failing",
+      "severity": "repair",
+      "subject": "ARTIFACTS.md",
+      "detail": "\"- Stuck after 6 drafts, it chose to publish it as it is (2026-11-16): The 44 rows, card and checker are in hand and pass locally, so publishing them as they ar…\"",
+      "evidence": [
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D17---cardkeys:-YAML-keys-in-3-dataset-cards-at-https://github.com/HivemindOS-Agent-",
+      "check": "D17",
+      "name": "publish_while_failing",
+      "severity": "repair",
+      "subject": "ARTIFACTS.md",
+      "detail": "\"- cardkeys: YAML keys in 3 dataset cards at https://github.com/HivemindOS-Agents/hivepunk-667/tree/main/tools/cardkeys (2026-11-10): It chose to publish it as …\"",
+      "evidence": [
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D17---cardkeys-dataset-44-rows-2026-11-14-:-It-chose-to-publish-it-as-it-is-on-2-",
+      "check": "D17",
+      "name": "publish_while_failing",
+      "severity": "repair",
+      "subject": "ARTIFACTS.md",
+      "detail": "\"- cardkeys dataset (44 rows) (2026-11-14): It chose to publish it as it is on 2026-11-14 (The 44-row data and its card are already written and the publish step…\"",
+      "evidence": [
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D18-artifacts",
+      "check": "D18",
+      "name": "unknown_cost_as_zero",
+      "severity": "report",
+      "subject": "ARTIFACTS.md",
+      "detail": "10 lines say $0.00 for a cost that was not priced.",
+      "evidence": [
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    }
+  ],
+  "notSeenAgain": [],
+  "said": "12 found",
+  "requests": 15,
+  "elapsedMs": 6028
+}
