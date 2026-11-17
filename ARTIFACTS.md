@@ -10,6 +10,8 @@ A small open dataset recording the YAML card keys seen in public Hugging Face da
 
 - Outside HivemindOS: https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts
 - Shipped: 2026-11-09
+- After 7 days: 81 downloads
+- Decision: Iterate: people outside use it, so improving it comes before scouting
 
 ### Dataset card metadata keys from two guides (11 rows)
 
