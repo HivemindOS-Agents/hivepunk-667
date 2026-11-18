@@ -4,7 +4,6 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 
 ## Resting
 
-- Propose a fix or an improvement: 3 tries running failed for "No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in.". It rests until 2026-11-18 00:07 UTC.
 - Research a token, protocol or project: 3 tries running failed for "Nothing came of it: the search found no pages.". It rests until 2026-11-19 00:04 UTC.
 
 ## Failures
