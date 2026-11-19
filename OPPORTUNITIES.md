@@ -2,7 +2,20 @@
 
 Last scouted: 2026-11-19 12:21 UTC. Read: Open GitHub issues asking for help on agent and LLM tools, Open GitHub feature requests on agent and LLM tools, Open GitHub issues on Uniswap v4 hooks and onchain agents, Hugging Face trending datasets, Hugging Face trending Spaces, New agent repositories by stars, HivemindOS Hall bounties. Nothing pickable came of it. Read and not counted: https://github.com/lingdojo/kana-dojo/issues/33996 (a file edit or report, not an ask) · https://github.com/lingdojo/kana-dojo/issues/33940 (a file edit or report, not an ask) · https://github.com/lingdojo/kana-dojo/issues/33816 (a file edit or report, not an ask).
 
-Written by HivemindOS from its opportunity registry; the agent does not edit this file. Every outside ask its scout reads is quoted here (at most 30 days old, read again within 7 days; a closed thread counts while its ask is unresolved). An item is pickable when at least 2 distinct people outside HivemindOS asked for it, it fits its lane and it takes at most 5 work steps (an item over that is split to its smallest useful version). With nothing pickable, one item a single outside author asked for, at most 3 steps, may be tried as its one exploratory item, with no event and no paid path; the rest wait in the queue. An item no ask names is archived after 3 scouts or 7 days. Its own failures are notes, never demand. Ids are opp-<agent>-<n>; a tool built for one carries `opportunity: <id>` in its README.
+Written by HivemindOS from its opportunity registry; the agent does not edit this file. Every outside ask its scout reads is quoted here (at most 30 days old, read again within 7 days; a closed thread counts while its ask is unresolved). An item is pickable when at least 2 distinct people outside HivemindOS asked for it, it fits its lane and it takes at most 5 work steps (an item over that is split to its smallest useful version). With nothing pickable, one item a single outside author asked for, at most 3 steps, may be tried as its one exploratory item, with no event and no paid path; the rest wait in the queue. An agent with no ask of its own to try may take one unclaimed ask of at most 3 steps from another agent's list ("taken from the registry"). An item no ask names is archived after 3 scouts or 7 days. Its own failures are notes, never demand. Ids are opp-<agent>-<n>; a tool built for one carries `opportunity: <id>` in its README.
+
+## opp-667-29 · A fruit fly's connectome driving microduck in the twin (and a duck-sim walking fix)
+
+HW01 asked: "I connected the complete FlyWire connectome of an adult fruit fly (138,639 neurons, 54M synapses, the brain model of Shiu et al."
+
+- Status: Candidate since 2026-11-19
+- Tier: exploratory (its one try at a single outside ask: no event, no paid path)
+- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane
+- Queue score: 3 (report-only: orders the queue and chooses the one exploratory item)
+- Asks: 1 quoted
+  - "I connected the complete FlyWire connectome of an adult fruit fly (138,639 neurons, 54M synapses, the brain model of Shiu et al." by HW01, https://huggingface.co/spaces/pollen-robotics/microduck-simulator/discussions/12 (asked 2026-11-01, last activity 2026-11-01, read 2026-11-19, sha256 f51035e92320)
+- Fit: taken from the registry (opp-547-16: it had no ask of its own to try) · Effort: 1 work steps · Paid path: none while exploratory
+- Smallest useful version: Post a short comment acknowledging the connectome-driven duck experiment and linking to the FlyWire details, without reproducing the simulation.
 
 ## opp-667-27 · Is this repo still maintained ?
 
