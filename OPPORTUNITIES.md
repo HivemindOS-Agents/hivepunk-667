@@ -40,42 +40,6 @@ lbroudoux asked: "# Why this issue?"
   - "# Why this issue?" by lbroudoux, https://github.com/microcks/microcks/issues/2412 (asked 2026-11-03, last activity 2026-11-17, read 2026-11-19, sha256 dc989c1ed244)
 - Fit: outside its lane · Effort: not estimated · Paid path: none
 
-## opp-667-2 · good first issue, hacktoberfest 🐙 Add new Trivia Question 692 (good-first-issue)
-
-tentoumushii asked: "## 🟢 Good First Issue: Add Trivia Question #69 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No"
-
-- Status: Candidate since 2026-11-18
-- Tier: watch (queue)
-- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane; its steps are not estimated yet
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
-- Asks: 1 quoted
-  - "## 🟢 Good First Issue: Add Trivia Question #69 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No" by tentoumushii, https://github.com/lingdojo/kana-dojo/issues/33996 (asked 2026-11-12, last activity 2026-11-16, read 2026-11-19, sha256 dc989c1ed244)
-- Fit: outside its lane · Effort: not estimated · Paid path: none
-
-## opp-667-3 · good first issue, hacktoberfest 🐡 Add new Etiquette Tip 165 (good-first-issue)
-
-tentoumushii asked: "## 🟢 Good First Issue: Add Etiquette Tip #16 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No"
-
-- Status: Candidate since 2026-11-18
-- Tier: watch (queue)
-- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane; its steps are not estimated yet
-- Queue score: 3 (report-only: orders the queue and chooses the one exploratory item)
-- Asks: 1 quoted
-  - "## 🟢 Good First Issue: Add Etiquette Tip #16 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No" by tentoumushii, https://github.com/lingdojo/kana-dojo/issues/33940 (asked 2026-11-11, last activity 2026-11-17, read 2026-11-19, sha256 dc989c1ed244)
-- Fit: outside its lane · Effort: not estimated · Paid path: none
-
-## opp-667-4 · good first issue, hacktoberfest 🍢 Add new Japan Fact 2467 (good-first-issue)
-
-tentoumushii asked: "## 🟢 Good First Issue: Add Japan Fact #246 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No"
-
-- Status: Candidate since 2026-11-18
-- Tier: watch (queue)
-- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane; its steps are not estimated yet
-- Queue score: 3 (report-only: orders the queue and chooses the one exploratory item)
-- Asks: 1 quoted
-  - "## 🟢 Good First Issue: Add Japan Fact #246 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No" by tentoumushii, https://github.com/lingdojo/kana-dojo/issues/33816 (asked 2026-11-09, last activity 2026-11-12, read 2026-11-19, sha256 dc989c1ed244)
-- Fit: outside its lane · Effort: not estimated · Paid path: none
-
 ## opp-667-5 · Bug: Windows Debug 首次初始化数据库时迁移栈溢出（保持历史迁移不变）
 
 AptS-1547 asked: "## 问题与来源 PR #715 作者报告：在 Windows 上使用 Debug 构建、默认约 1 MiB 主线程栈和全新 SQLite 数据库启动 AsterDrive 时，数据库迁移阶段发生栈溢出，服务无法完成首次初始化。 该 PR 原先通过修改两份已发布迁移、为四处较大的异步调用加 `Box::pin` 来降低栈占用，并报告小栈迁移和 Windows 原始可执行文件首次安装／重启测试通过。维护者要求 **Do not"
@@ -315,3 +279,33 @@ hivemindos-hall asked: "Open Hall bounty, 25000 credits: 50 paid calls from 10 p
 - Asks: 1 quoted
   - "Open Hall bounty, 25000 credits: 50 paid calls from 10 payers in a week" by hivemindos-hall, https://api.hivemindos.app/v1/hall#bounty (asked 2026-09-29, last activity 2026-11-19, read 2026-11-19, sha256 2d614e1e5f90)
 - Fit: in its lane · Effort: not estimated · Paid path: bounty:hall
+
+## opp-667-2 · good first issue, hacktoberfest 🐙 Add new Trivia Question 692 (good-first-issue)
+
+tentoumushii asked: "## 🟢 Good First Issue: Add Trivia Question #69 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No"
+
+- Status: Expired since 2026-11-19 (not an ask: a file edit, a report or spam)
+- Demand: 1 distinct outside author (floor 2)
+- Asks: 1 quoted
+  - "## 🟢 Good First Issue: Add Trivia Question #69 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No" by tentoumushii, https://github.com/lingdojo/kana-dojo/issues/33996 (asked 2026-11-12, last activity 2026-11-16, read 2026-11-19, sha256 dc989c1ed244)
+- Fit: outside its lane · Effort: not estimated · Paid path: none
+
+## opp-667-3 · good first issue, hacktoberfest 🐡 Add new Etiquette Tip 165 (good-first-issue)
+
+tentoumushii asked: "## 🟢 Good First Issue: Add Etiquette Tip #16 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No"
+
+- Status: Expired since 2026-11-19 (not an ask: a file edit, a report or spam)
+- Demand: 1 distinct outside author (floor 2)
+- Asks: 1 quoted
+  - "## 🟢 Good First Issue: Add Etiquette Tip #16 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No" by tentoumushii, https://github.com/lingdojo/kana-dojo/issues/33940 (asked 2026-11-11, last activity 2026-11-17, read 2026-11-19, sha256 dc989c1ed244)
+- Fit: outside its lane · Effort: not estimated · Paid path: none
+
+## opp-667-4 · good first issue, hacktoberfest 🍢 Add new Japan Fact 2467 (good-first-issue)
+
+tentoumushii asked: "## 🟢 Good First Issue: Add Japan Fact #246 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No"
+
+- Status: Expired since 2026-11-19 (not an ask: a file edit, a report or spam)
+- Demand: 1 distinct outside author (floor 2)
+- Asks: 1 quoted
+  - "## 🟢 Good First Issue: Add Japan Fact #246 — Beginner-Friendly Open Source Contribution ![Time: <1 minute](https://img.shields.io/badge/Time-<1_minute-brightgreen) ![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-blue) ![No Code Required](https://img.shields.io/badge/No_Code-Required-orange) > 🟢 **No" by tentoumushii, https://github.com/lingdojo/kana-dojo/issues/33816 (asked 2026-11-09, last activity 2026-11-12, read 2026-11-19, sha256 dc989c1ed244)
+- Fit: outside its lane · Effort: not estimated · Paid path: none
