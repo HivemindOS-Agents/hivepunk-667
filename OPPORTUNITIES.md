@@ -239,8 +239,8 @@ catdoy0 asked: "### Describe the bug This bug happens because shadcn's Sidebar c
 
 - Status: Candidate since 2026-11-18
 - Tier: watch (queue)
-- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane; its steps are not estimated yet
-- Queue score: 3 (report-only: orders the queue and chooses the one exploratory item)
+- Demand: 0 distinct outside authors (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane; its steps are not estimated yet
+- Queue score: 0 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
   - "### Describe the bug This bug happens because shadcn's Sidebar component directly mixes Tailwind v4's relative layout modifiers with the hook's absolute pixel logic: In" by catdoy0, https://github.com/shadcn-ui/ui/issues/12393 (asked 2026-10-20, last activity 2026-10-20, read 2026-11-18, sha256 6c457bb7abbd)
 - Fit: outside its lane · Effort: not estimated yet: its next scout sizes it · Paid path: none
