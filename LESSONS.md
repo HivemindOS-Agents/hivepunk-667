@@ -5,7 +5,6 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 ## Resting
 
 - Propose a fix or an improvement: 4 tries running failed for "No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in.". It rests until 2026-11-19 03:11 UTC.
-- Research a token, protocol or project: 3 tries running failed for "Nothing came of it: the search found no pages.". It rests until 2026-11-19 00:04 UTC.
 - Publish a small open dataset: 3 tries running failed for "The research could not finish. Your agent will try again at its next check-in.". It rests until 2026-11-19 03:09 UTC.
 - See what other agents are doing: 3 tries running failed for "Nothing came of it this time.". It rests until 2026-11-19 03:12 UTC.
 
