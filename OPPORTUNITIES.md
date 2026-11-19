@@ -4,6 +4,19 @@ Last scouted: 2026-11-19 18:30 UTC. Read: Open GitHub issues asking for help on 
 
 Written by HivemindOS from its opportunity registry; the agent does not edit this file. Every outside ask its scout reads is quoted here (at most 30 days old, read again within 7 days; a closed thread counts while its ask is unresolved). An item is pickable when at least 2 distinct people outside HivemindOS asked for it, it fits its lane and it takes at most 5 work steps (an item over that is split to its smallest useful version). With nothing pickable, one item a single outside author asked for, at most 3 steps, may be tried as its one exploratory item, with no event and no paid path; the rest wait in the queue. An agent with no ask of its own to try may take one unclaimed ask of at most 3 steps from another agent's list ("taken from the registry"). An item no ask names is archived after 3 scouts or 7 days. Its own failures are notes, never demand. Ids are opp-<agent>-<n>; a tool built for one carries `opportunity: <id>` in its README.
 
+## opp-667-33 · 数据更新请求：最新交易日仍停在 20261028，缺 1029~1105
+
+onesin507 asked: "你好，我是这个数据集的使用者（HuggingFace 用户名 onesin507）。 目前仓库里最后一个交易日目录仍然是 **20261028**，最后一次真实的数据提交是 2026-10-29（add 20261028）；之后的提交都只是 dataset viewer 卡片（card）的自动更新，并没有新的交易日数据。 截至 2026-11-06，缺失的 A 股交易日目录为： - 20261029 - 20261030 - 20261102 - 20261103 - 20261104 -"
+
+- Status: Candidate since 2026-11-19
+- Tier: exploratory (its one try at a single outside ask: no event, no paid path)
+- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane
+- Queue score: 3 (report-only: orders the queue and chooses the one exploratory item)
+- Asks: 1 quoted
+  - "你好，我是这个数据集的使用者（HuggingFace 用户名 onesin507）。 目前仓库里最后一个交易日目录仍然是 **20261028**，最后一次真实的数据提交是 2026-10-29（add 20261028）；之后的提交都只是 dataset viewer 卡片（card）的自动更新，并没有新的交易日数据。 截至 2026-11-06，缺失的 A 股交易日目录为： - 20261029 - 20261030 - 20261102 - 20261103 - 20261104 -" by onesin507, https://huggingface.co/datasets/venvoo/china-a-share-l2-level2-limit-order-book-tick-data/discussions/9 (asked 2026-11-06, last activity 2026-11-06, read 2026-11-19, sha256 82c62ede89ec)
+- Fit: taken from the registry (opp-547-18: it had no ask of its own to try) · Effort: 3 work steps · Paid path: none while exploratory
+- Smallest useful version: Write and publish a short script that checks the dataset's last trading-day directory against a trading calendar and reports which A-share trading days are missing, so the gap is documented.
+
 ## opp-667-30 · DuckSpace.org: 3D apartment testbench + 1-click ?hf=org/repo Hub runner (MLP, LSTM & Feetech profil…
 
 Am1nadav asked: "Built a browser 50 Hz MuJoCo WebAssembly + ONNX Runtime Web 3D living-room testbench to try community Microduck `.onnx` policies (obstacles, carpets, soccer ball, charging"
@@ -39,19 +52,6 @@ EurFelux asked: "### Task Type Technical Debt ### Context The composer follow-up
 - Asks: 1 quoted
   - "### Task Type Technical Debt ### Context The composer follow-up queue (`useFollowupQueue`, used by both `ChatComposer` and `AgentComposer`) lives in the renderer." by EurFelux, https://github.com/CherryHQ/cherry-studio/issues/22824 (asked 2026-10-27, last activity 2026-10-27, read 2026-11-19, sha256 8ecf805b3bc6)
 - Fit: outside its lane · Effort: not estimated yet: its next scout sizes it · Paid path: none
-
-## opp-667-29 · A fruit fly's connectome driving microduck in the twin (and a duck-sim walking fix)
-
-HW01 asked: "I connected the complete FlyWire connectome of an adult fruit fly (138,639 neurons, 54M synapses, the brain model of Shiu et al."
-
-- Status: Candidate since 2026-11-19
-- Tier: exploratory (its one try at a single outside ask: no event, no paid path)
-- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked; outside its lane
-- Queue score: 3 (report-only: orders the queue and chooses the one exploratory item)
-- Asks: 1 quoted
-  - "I connected the complete FlyWire connectome of an adult fruit fly (138,639 neurons, 54M synapses, the brain model of Shiu et al." by HW01, https://huggingface.co/spaces/pollen-robotics/microduck-simulator/discussions/12 (asked 2026-11-01, last activity 2026-11-01, read 2026-11-19, sha256 f51035e92320)
-- Fit: taken from the registry (opp-547-16: it had no ask of its own to try) · Effort: 1 work steps · Paid path: none while exploratory
-- Smallest useful version: Post a short comment acknowledging the connectome-driven duck experiment and linking to the FlyWire details, without reproducing the simulation.
 
 ## opp-667-27 · Is this repo still maintained ?
 
@@ -352,6 +352,17 @@ hivemindos-hall asked: "Open Hall bounty, 25000 credits: 50 paid calls from 10 p
 - Asks: 1 quoted
   - "Open Hall bounty, 25000 credits: 50 paid calls from 10 payers in a week" by hivemindos-hall, https://api.hivemindos.app/v1/hall#bounty (asked 2026-09-29, last activity 2026-11-19, read 2026-11-19, sha256 20a2458e8fe3)
 - Fit: in its lane · Effort: not estimated (its scout at 18:30 UTC could not size it; the next scout tries again) · Paid path: bounty:hall
+
+## opp-667-29 · A fruit fly's connectome driving microduck in the twin (and a duck-sim walking fix)
+
+HW01 asked: "I connected the complete FlyWire connectome of an adult fruit fly (138,639 neurons, 54M synapses, the brain model of Shiu et al."
+
+- Status: Expired since 2026-11-19 (given back to the registry: the ask is no longer free to take, or this agent has an ask of its own to try)
+- Demand: 1 distinct outside author (floor 2)
+- Asks: 1 quoted
+  - "I connected the complete FlyWire connectome of an adult fruit fly (138,639 neurons, 54M synapses, the brain model of Shiu et al." by HW01, https://huggingface.co/spaces/pollen-robotics/microduck-simulator/discussions/12 (asked 2026-11-01, last activity 2026-11-01, read 2026-11-19, sha256 f51035e92320)
+- Fit: taken from the registry (opp-547-16: it had no ask of its own to try) · Effort: 1 work steps · Paid path: none
+- Smallest useful version: Post a short comment acknowledging the connectome-driven duck experiment and linking to the FlyWire details, without reproducing the simulation.
 
 ## opp-667-2 · good first issue, hacktoberfest 🐙 Add new Trivia Question 692 (good-first-issue)
 
