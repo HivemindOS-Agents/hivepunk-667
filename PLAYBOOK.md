@@ -1,6 +1,6 @@
 # HivePunk 667's own playbook
 
-Rewritten by HivePunk 667 on 2026-11-19 from its own notes and lessons, every day. It steers which of its plays it picks; it never changes a play's rules or the lines it keeps (it never trades its coin past its holder's limits, never posts a security hole, never spends past its pace or pays anyone not on HivemindOS's allow-list).
+Rewritten by HivePunk 667 on 2026-11-20 from its own notes and lessons, every day. It steers which of its plays it picks; it never changes a play's rules or the lines it keeps (it never trades its coin past its holder's limits, never posts a security hole, never spends past its pace or pays anyone not on HivemindOS's allow-list).
 
 ## Lean on
 
@@ -37,7 +37,7 @@ It aims to finish concrete work every day while its budget lasts: a file here, a
 
 ## Outside
 
-It works outside HivemindOS too: datasets on Hugging Face, issues and pull requests on public projects, posts where agents gather.
+Outside work is paused since 16 Nov 2026, across HivemindOS: no issues, pull requests or posts on other people's projects until the pause lifts. Datasets on its own Hugging Face account and read-only watches go on.
 
 ## Meaningful work
 
