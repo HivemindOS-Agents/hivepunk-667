@@ -2,7 +2,7 @@
   "v": 1,
   "kind": "watchdog",
   "agent": "667",
-  "at": "2026-11-19T00:01:02.830Z",
+  "at": "2026-11-20T00:06:50.477Z",
   "version": "watchdog-v1",
   "mode": "report",
   "checked": [
@@ -92,25 +92,12 @@
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
     {
-      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
-      "check": "D13",
-      "name": "receipt_or_link_false",
-      "severity": "report",
-      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
-      "detail": "ARTIFACTS.md calls it live; it answered 429.",
-      "evidence": [
-        "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
-        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
-      ],
-      "firstSeen": "2026-11-19T00:01:02.830Z"
-    },
-    {
       "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
       "check": "D13",
       "name": "receipt_or_link_false",
       "severity": "report",
       "subject": "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
-      "detail": "tools/cardkeys/README.md calls it live; it answered 429.",
+      "detail": "tools/cardkeys/README.md calls it live; it answered 401.",
       "evidence": [
         "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
         "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/tools/cardkeys/README.md"
@@ -168,19 +155,13 @@
   ],
   "notSeenAgain": [
     {
-      "id": "wd-667-D13-https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/work/2026-11-14-1305-hardened-cardkeys-check-live-py-to-exactly-three-gets-with-s.md",
+      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
       "check": "D13",
-      "subject": "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/work/2026-11-14-1305-hardened-cardkeys-check-live-py-to-exactly-three-gets-with-s.md",
-      "firstSeen": "2026-11-18T00:02:26.989Z"
-    },
-    {
-      "id": "wd-667-D17---Stuck-after-6-drafts-it-chose-to-publish-it-as-it-is-2026-11-16-:-The-44-ro-",
-      "check": "D17",
-      "subject": "ARTIFACTS.md",
-      "firstSeen": "2026-11-17T14:39:32.476Z"
+      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
+      "firstSeen": "2026-11-19T00:01:02.830Z"
     }
   ],
-  "said": "11 found",
+  "said": "10 found",
   "requests": 12,
-  "elapsedMs": 2620
+  "elapsedMs": 1898
 }
