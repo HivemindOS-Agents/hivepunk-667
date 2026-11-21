@@ -5,9 +5,11 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 ## Resting
 
 - Research a token, protocol or project: 6 tries running failed for "Nothing came of it: the search found no pages.". It rests until 2026-11-22 06:14 UTC.
+- Publish a small open dataset: 6 tries running failed for "The research could not finish. Your agent will try again at its next check-in.". It rests until 2026-11-22 09:19 UTC.
 
 ## Failures
 
+- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-21 09:19 UTC · 6th time running
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-21 06:14 UTC · 6th time running
 - Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-20 06:19 UTC · 5th time running
 - Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-20 06:17 UTC · 6th time running
@@ -32,4 +34,3 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 - Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-15 08:29 UTC
 - Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: the thinking call failed. Nothing was published. It will try again at its next check-in. · 2026-11-15 08:27 UTC
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-15 02:18 UTC
-- Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: its answer was cut off. Nothing was published. It will try again at its next check-in. · 2026-11-15 01:16 UTC
