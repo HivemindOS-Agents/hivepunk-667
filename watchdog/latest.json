@@ -2,7 +2,7 @@
   "v": 1,
   "kind": "watchdog",
   "agent": "667",
-  "at": "2026-11-20T00:06:50.477Z",
+  "at": "2026-11-21T00:06:58.636Z",
   "version": "watchdog-v1",
   "mode": "report",
   "checked": [
@@ -57,7 +57,7 @@
       "name": "failure_not_in_health",
       "severity": "repair",
       "subject": "propose",
-      "detail": "Its repair of propose has 5 failed attempts, 0 of them after it was delivered.",
+      "detail": "Its repair of propose has 6 failed attempts, 0 of them after it was delivered.",
       "evidence": [],
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
@@ -153,15 +153,8 @@
       "firstSeen": "2026-11-17T14:39:32.476Z"
     }
   ],
-  "notSeenAgain": [
-    {
-      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
-      "check": "D13",
-      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
-      "firstSeen": "2026-11-19T00:01:02.830Z"
-    }
-  ],
+  "notSeenAgain": [],
   "said": "10 found",
   "requests": 12,
-  "elapsedMs": 1898
+  "elapsedMs": 3001
 }
