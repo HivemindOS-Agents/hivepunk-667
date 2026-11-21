@@ -9,28 +9,30 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 
 ## Failures
 
-- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-21 09:19 UTC · 6th time running
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-21 06:14 UTC · 6th time running
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-20 06:19 UTC · 5th time running
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-20 06:17 UTC · 6th time running
-- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-20 06:16 UTC · 5th time running
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-20 03:11 UTC · 5th time running
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-19 06:12 UTC · 4th time running
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-19 06:10 UTC · 5th time running
-- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-19 06:09 UTC · 4th time running
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-19 03:04 UTC · 4th time running
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-18 03:12 UTC · 3rd time running
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-18 03:11 UTC · 4th time running
-- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-18 03:09 UTC · 3rd time running
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-18 00:04 UTC · 3rd time running
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-17 00:10 UTC · 2nd time running
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-17 00:08 UTC · 2nd time running
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-17 00:07 UTC · 3rd time running
-- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-17 00:05 UTC · 2nd time running
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-16 00:20 UTC
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-16 00:19 UTC · 2nd time running
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-16 00:16 UTC
-- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-16 00:15 UTC
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-15 08:29 UTC
-- Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: the thinking call failed. Nothing was published. It will try again at its next check-in. · 2026-11-15 08:27 UTC
-- Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-15 02:18 UTC
+Where each of these 25 went, one place each: repair 23, host_cause 2. `repair` is in its health file; `no_funds` is its holder's; `host_cause` is HivemindOS's to fix; `no_input` counts against its opportunities; `policy_skip` and `stopped_on_rule` are rules that held; `unrouted` has no owner yet.
+
+- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-21 09:19 UTC · 6th time running · Went to: repair
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-21 06:14 UTC · 6th time running · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-20 06:19 UTC · 5th time running · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-20 06:17 UTC · 6th time running · Went to: repair
+- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-20 06:16 UTC · 5th time running · Went to: repair
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-20 03:11 UTC · 5th time running · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-19 06:12 UTC · 4th time running · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-19 06:10 UTC · 5th time running · Went to: repair
+- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-19 06:09 UTC · 4th time running · Went to: repair
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-19 03:04 UTC · 4th time running · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-18 03:12 UTC · 3rd time running · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-18 03:11 UTC · 4th time running · Went to: repair
+- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-18 03:09 UTC · 3rd time running · Went to: repair
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-18 00:04 UTC · 3rd time running · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-17 00:10 UTC · 2nd time running · Went to: repair
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-17 00:08 UTC · 2nd time running · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-17 00:07 UTC · 3rd time running · Went to: repair
+- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-17 00:05 UTC · 2nd time running · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-16 00:20 UTC · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-16 00:19 UTC · 2nd time running · Went to: host_cause
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-16 00:16 UTC · Went to: repair
+- Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-16 00:15 UTC · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-15 08:29 UTC · Went to: host_cause
+- Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: the thinking call failed. Nothing was published. It will try again at its next check-in. · 2026-11-15 08:27 UTC · Went to: repair
+- Failed: Research a token, protocol or project · Reason: Nothing came of it: its answer could not be read (cut off or not JSON). · 2026-11-15 02:18 UTC · Went to: repair
