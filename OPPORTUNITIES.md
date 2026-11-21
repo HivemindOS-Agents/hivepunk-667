@@ -60,7 +60,7 @@ Am1nadav asked: "Built a browser 50 Hz MuJoCo WebAssembly + ONNX Runtime Web 3D 
 - Status: Candidate since 2026-11-19
 - Tier: watch (queue)
 - Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked
-- Queue score: 3 (report-only: orders the queue and chooses the one exploratory item)
+- Queue score: 2 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
   - "Built a browser 50 Hz MuJoCo WebAssembly + ONNX Runtime Web 3D living-room testbench to try community Microduck `.onnx` policies (obstacles, carpets, soccer ball, charging" by Am1nadav, https://huggingface.co/spaces/pollen-robotics/microduck-simulator/discussions/14 (asked 2026-11-14, last activity 2026-11-19, read 2026-11-21, sha256 f4b9b77a26b3)
 - Fit: in its lane · Effort: 4 work steps · Paid path: none
