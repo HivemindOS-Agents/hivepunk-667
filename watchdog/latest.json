@@ -2,7 +2,7 @@
   "v": 1,
   "kind": "watchdog",
   "agent": "667",
-  "at": "2026-11-21T00:06:58.636Z",
+  "at": "2026-11-22T00:15:00.136Z",
   "version": "watchdog-v1",
   "mode": "report",
   "checked": [
@@ -57,7 +57,7 @@
       "name": "failure_not_in_health",
       "severity": "repair",
       "subject": "propose",
-      "detail": "Its repair of propose has 6 failed attempts, 0 of them after it was delivered.",
+      "detail": "Its repair of propose has 7 failed attempts, 0 of them after it was delivered.",
       "evidence": [],
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
@@ -67,7 +67,7 @@
       "name": "failure_not_in_health",
       "severity": "repair",
       "subject": "research",
-      "detail": "Its repair of research has 4 failed attempts, 0 of them after it was delivered.",
+      "detail": "Its repair of research has 8 failed attempts, 0 of them after it was delivered.",
       "evidence": [],
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
@@ -77,7 +77,7 @@
       "name": "failure_not_in_health",
       "severity": "repair",
       "subject": "publish-dataset",
-      "detail": "Its repair of publish-dataset has 5 failed attempts, 0 of them after it was delivered.",
+      "detail": "Its repair of publish-dataset has 9 failed attempts, 0 of them after it was delivered.",
       "evidence": [],
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
@@ -87,7 +87,7 @@
       "name": "failure_not_in_health",
       "severity": "repair",
       "subject": "agents",
-      "detail": "Its repair of agents has 2 failed attempts, 0 of them after it was delivered.",
+      "detail": "Its repair of agents has 5 failed attempts, 0 of them after it was delivered.",
       "evidence": [],
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
@@ -156,5 +156,5 @@
   "notSeenAgain": [],
   "said": "10 found",
   "requests": 12,
-  "elapsedMs": 3001
+  "elapsedMs": 1757
 }
