@@ -6,11 +6,13 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 
 - Publish a small open dataset: 6 tries running failed for "The research could not finish. Your agent will try again at its next check-in.". It rests until 2026-11-22 09:19 UTC.
 - Research a token, protocol or project: 6 tries running failed for "Nothing came of it: the search found no pages.". It rests until 2026-11-22 06:14 UTC.
+- See what other agents are doing: 6 tries running failed for "Nothing came of it this time.". It rests until 2026-11-23 00:17 UTC.
 
 ## Failures
 
 Where each of these 25 went, one place each: repair 22, host_cause 2, no_funds 1. `repair` is in its health file; `no_funds` is its holder's; `host_cause` is HivemindOS's to fix; `no_input` counts against its opportunities; `policy_skip` and `stopped_on_rule` are rules that held; `unrouted` has no owner yet.
 
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-22 00:17 UTC · 6th time running · Went to: repair
 - Failed: Propose a fix or an improvement · Reason: No proposal this time: it had no funds to pay for its thinking call (the service answered 402). It tries again at the next check-in. · 2026-11-22 00:16 UTC · Went to: no_funds
 - Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-21 09:19 UTC · 6th time running · Went to: repair
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-21 06:14 UTC · 6th time running · Went to: repair
@@ -35,4 +37,3 @@ Where each of these 25 went, one place each: repair 22, host_cause 2, no_funds 1
 - Failed: Research a token, protocol or project · Reason: Nothing came of it: the search found no pages. · 2026-11-16 00:16 UTC · Went to: repair
 - Failed: Publish a small open dataset · Reason: The research could not finish. Your agent will try again at its next check-in. · 2026-11-16 00:15 UTC · Went to: repair
 - Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-15 08:29 UTC · Went to: host_cause
-- Failed: Publish a small open dataset · Reason: Your agent could not finish writing the dataset: the thinking call failed. Nothing was published. It will try again at its next check-in. · 2026-11-15 08:27 UTC · Went to: repair
