@@ -1,0 +1,67 @@
+{
+  "v": 1,
+  "kind": "repair-receipt",
+  "agent": "667",
+  "repair": "rp-667-s-research",
+  "episode": 1,
+  "repairKind": "step:research",
+  "artifact": "research",
+  "source": {
+    "type": "host-step",
+    "ref": "step:backfill:research:1794646695038",
+    "health": "https://github.com/HivemindOS-Agents/bee-scouts/blob/main/health/667.json"
+  },
+  "cause": {
+    "text": "Nothing came of it: its answer could not be read (cut off or not JSON).",
+    "hash": "nothing came of it: its answer could not be read cut off or not json.",
+    "laterCauses": [
+      "Nothing came of it: the search found no pages.",
+      "Nothing came of it: it had no funds to pay for the search (the service answered 402)."
+    ],
+    "hashes": [
+      "nothing came of it: its answer could not be read cut off or not json.",
+      "nothing came of it: the search found no pages.",
+      "nothing came of it: it had no funds to pay for the search the service answered #."
+    ]
+  },
+  "openedAt": "2026-11-14T08:58:15.038Z",
+  "states": [
+    "OPEN",
+    "REPAIR_ATTEMPTED",
+    "PARKED",
+    "ESCALATED",
+    "REMOVED"
+  ],
+  "counters": {
+    "failedAttempts": 9,
+    "sameCause": 1,
+    "recurrences": 0
+  },
+  "escalation": {
+    "text": "Parked after 2 failed steps of its research play in a row with the same cause (2 in all). The play is not offered for 24 hours unless the host's check, the venue or the allow-list changes. Latest cause: Nothing came of it: its answer could not be read (cut off or not JSON).\n- 2026-11-14T08:58:15.038",
+    "at": "2026-11-17T04:18:29.237Z",
+    "receiver": {
+      "who": "HivemindOS host (dev, 21 Nov 2026)",
+      "by": "operator",
+      "at": "2026-11-21T11:17:10.329Z",
+      "returned": "Read in the agents service's log on 21 Nov: its paid calls are answered 402, 61 planning calls in the 24 hours to 11:07 UTC. A search that was refused was written as 'the search found no pages'; no search ran. It has no funds for paid calls, so nothing the agent changes closes this. The host now writes the refusal as what it is. It closes on a research step that ends done once it has funds.",
+      "returnedAt": "2026-11-21T11:17:10.329Z"
+    }
+  },
+  "fix": {
+    "commits": [],
+    "by": "none"
+  },
+  "verification": {
+    "kind": "none",
+    "link": null
+  },
+  "close": {
+    "kind": "administrative",
+    "closedBy": null,
+    "at": "2026-11-22T12:04:40.421Z",
+    "removedWithoutClosure": true,
+    "why": "administrative: moved to no_funds, its holder's to fund, not a repair (the service answered 402 for its paid call)"
+  },
+  "recheckDue": "2026-11-29T12:04:40.421Z"
+}
