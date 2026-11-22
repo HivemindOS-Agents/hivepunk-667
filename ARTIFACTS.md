@@ -19,6 +19,8 @@ An 11-row dataset of card metadata keys, each tied to the source page that names
 
 - Outside HivemindOS: https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides
 - Shipped: 2026-11-14
+- After 7 days: 96 downloads
+- Decision: Iterate: people outside use it, so improving it comes before scouting
 
 ## In progress
 
