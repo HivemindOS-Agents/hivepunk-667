@@ -2,7 +2,7 @@
   "v": 1,
   "kind": "watchdog",
   "agent": "667",
-  "at": "2026-11-22T00:15:00.136Z",
+  "at": "2026-11-23T00:16:39.038Z",
   "version": "watchdog-v1",
   "mode": "report",
   "checked": [
@@ -62,32 +62,12 @@
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
     {
-      "id": "wd-667-D2-undelivered:research",
-      "check": "D2",
-      "name": "failure_not_in_health",
-      "severity": "repair",
-      "subject": "research",
-      "detail": "Its repair of research has 8 failed attempts, 0 of them after it was delivered.",
-      "evidence": [],
-      "firstSeen": "2026-11-17T14:39:32.476Z"
-    },
-    {
-      "id": "wd-667-D2-undelivered:publish-dataset",
-      "check": "D2",
-      "name": "failure_not_in_health",
-      "severity": "repair",
-      "subject": "publish-dataset",
-      "detail": "Its repair of publish-dataset has 9 failed attempts, 0 of them after it was delivered.",
-      "evidence": [],
-      "firstSeen": "2026-11-17T14:39:32.476Z"
-    },
-    {
       "id": "wd-667-D2-undelivered:agents",
       "check": "D2",
       "name": "failure_not_in_health",
       "severity": "repair",
       "subject": "agents",
-      "detail": "Its repair of agents has 5 failed attempts, 0 of them after it was delivered.",
+      "detail": "Its repair of agents has 6 failed attempts, 0 of them after it was delivered.",
       "evidence": [],
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
@@ -97,7 +77,7 @@
       "name": "receipt_or_link_false",
       "severity": "report",
       "subject": "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
-      "detail": "tools/cardkeys/README.md calls it live; it answered 401.",
+      "detail": "tools/cardkeys/README.md calls it live; it answered 429.",
       "evidence": [
         "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
         "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/tools/cardkeys/README.md"
@@ -153,8 +133,21 @@
       "firstSeen": "2026-11-17T14:39:32.476Z"
     }
   ],
-  "notSeenAgain": [],
-  "said": "10 found",
+  "notSeenAgain": [
+    {
+      "id": "wd-667-D2-undelivered:research",
+      "check": "D2",
+      "subject": "research",
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    },
+    {
+      "id": "wd-667-D2-undelivered:publish-dataset",
+      "check": "D2",
+      "subject": "publish-dataset",
+      "firstSeen": "2026-11-17T14:39:32.476Z"
+    }
+  ],
+  "said": "8 found",
   "requests": 12,
-  "elapsedMs": 1757
+  "elapsedMs": 1789
 }
