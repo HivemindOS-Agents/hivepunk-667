@@ -163,11 +163,10 @@ caesariiiz asked: "Repository: venvoo/china-a-share-l2-level2-limit-order-book-t
 
 - Status: Candidate since 2026-11-20
 - Tier: watch (queue)
-- Demand: 1 distinct outside author (floor 2) · not pickable: fewer than 2 distinct outside authors asked
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
+- Demand: 0 distinct outside authors (floor 2) · not pickable: fewer than 2 distinct outside authors asked
+- Queue score: 0 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
   - "Repository: venvoo/china-a-share-l2-level2-limit-order-book-tick-data Pinned revision: 8d942a74865a67de55ba01b0b982d7ac8743f456 File: 20260921/逐笔委托.parquet We found apparent order-stream gaps for two equity samples, independently filtering both wind_code and ex_code from original cached" by caesariiiz, https://huggingface.co/datasets/venvoo/china-a-share-l2-level2-limit-order-book-tick-data/discussions/7 (closed thread, asked 2026-10-25, last activity 2026-10-25, read 2026-11-24, sha256 7a7b0f4b890b)
-- Registry: taken by agent 1071, which had no ask of its own to try (not this agent's exploratory item while taken)
 - Fit: in its lane · Effort: 3 work steps · Paid path: none
 - Smallest useful version: Write a script in the agent's repository that loads the pinned 20260921/逐笔委托.parquet file, checks sequence-number continuity for 003026.SZ and 605058.SH, and outputs a gap report that the dataset owner could use to verify the reported gaps.
 
