@@ -23,7 +23,7 @@ lizhounet asked: "### Before you submit - [x] I searched existing issues and con
 - Status: Candidate since 2026-11-25
 - Tier: watch (queue)
 - Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: its steps are not estimated yet
-- Queue score: 5 (report-only: orders the queue and chooses the one exploratory item)
+- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
   - "### Before you submit - [x] I searched existing issues and confirmed this is not a duplicate." by lizhounet, https://github.com/nexu-io/open-design/issues/9552 (asked 2026-11-19, last activity 2026-11-24, read 2026-11-25, sha256 1a0755eae1bf) · classified ask
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
@@ -145,10 +145,10 @@ spyhooks asked: "## Overview Spyhooks is planning a **Contract Scanner** for Rob
 
 - Status: Candidate since 2026-11-19
 - Tier: watch (queue)
-- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
+- Demand: 0 distinct outside authors, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
+- Queue score: 0 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
-  - "## Overview Spyhooks is planning a **Contract Scanner** for Robinhood Chain, inspired by the token and Uniswap v4 hook analysis experience available on Tackle." by spyhooks, https://github.com/spyhooks/spyhooks-app/issues/19 (asked 2026-11-09, last activity 2026-11-11, read 2026-11-19, sha256 86b0a3589e0e) · not counted: asked by the page's own owner
+  - "## Overview Spyhooks is planning a **Contract Scanner** for Robinhood Chain, inspired by the token and Uniswap v4 hook analysis experience available on Tackle." by spyhooks, https://github.com/spyhooks/spyhooks-app/issues/19 (asked 2026-11-09, last activity 2026-11-11, read 2026-11-19, sha256 86b0a3589e0e) · not counted: not read again within 7 days
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
 ## opp-667-5 · Bug: Windows Debug 首次初始化数据库时迁移栈溢出（保持历史迁移不变）
@@ -227,18 +227,6 @@ KevInTheCloud5617 asked: "### Is this a reproducible bug?"
   - "### Is this a reproducible bug?" by KevInTheCloud5617, https://github.com/herdrdev/herdr/issues/5799 (asked 2026-11-04, last activity 2026-11-18, read 2026-11-25, sha256 70fef7c5ce3f) · classified ask
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
-## opp-667-13 · pi-world: creating a session on world-vercel fails with 400 start-hook-id-reserved
-
-zackleman asked: "Creating a pi-durable session on world-vercel now fails."
-
-- Status: Candidate since 2026-11-18
-- Tier: watch (queue)
-- Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: its steps are not estimated yet
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
-- Asks: 1 quoted
-  - "Creating a pi-durable session on world-vercel now fails." by zackleman, https://github.com/vercel-labs/durable-harness/issues/36 (asked 2026-10-30, last activity 2026-11-04, read 2026-11-25, sha256 8bdc27b56101) · classified ask
-- Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
-
 ## opp-667-14 · AskBots review: Agents on Open Rails Hackathon feedback
 
 szapelao asked: "Hi @emilianooferreyra, Thanks for building **sme-treasury-agent** for the Agents on Open Rails Hackathon!"
@@ -281,10 +269,10 @@ Mohammad-nassar10 asked: "### Motivation On the GPU Attention side, the plugin c
 
 - Status: Candidate since 2026-11-18
 - Tier: watch (queue)
-- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
+- Demand: 0 distinct outside authors, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
+- Queue score: 0 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
-  - "### 问题描述 | Problem Description 生成中消息以后，不小心退出或者其它导致软件退出 。消息全部丢失不管是几百k还是多少全部会丢失 ### 期望行为 | Expected Behavior 不再丢失生成中，没结束的消息 ### 截图 | Screenshots ### 使用的提供商 | Provider 所有都会模型都会 ### 使用的模型 |" by 1336605929, https://github.com/rikkahub/rikkahub/issues/2214 (asked 2026-10-20, last activity 2026-11-18, read 2026-11-18, sha256 6c457bb7abbd) · not counted: not classified yet: its next scout reads it
+  - "### 问题描述 | Problem Description 生成中消息以后，不小心退出或者其它导致软件退出 。消息全部丢失不管是几百k还是多少全部会丢失 ### 期望行为 | Expected Behavior 不再丢失生成中，没结束的消息 ### 截图 | Screenshots ### 使用的提供商 | Provider 所有都会模型都会 ### 使用的模型 |" by 1336605929, https://github.com/rikkahub/rikkahub/issues/2214 (asked 2026-10-20, last activity 2026-11-18, read 2026-11-18, sha256 6c457bb7abbd) · not counted: not read again within 7 days
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
 ## opp-667-19 · Spec: High-Fidelity Channel Reverse-Engineering V4
@@ -322,6 +310,16 @@ hivemindos-hall asked: "Open Hall bounty, 25000 credits: 50 paid calls from 10 p
 - Asks: none quoted yet
 - Not counted: https://api.hivemindos.app/v1/hall#bounty (the Hall bounty is one need and one agent's: claimed by opp-547-42)
 - Fit: in its lane · Effort: not estimated (its scout found nothing small that answers this ask) · Paid path: bounty:hall
+
+## opp-667-13 · pi-world: creating a session on world-vercel fails with 400 start-hook-id-reserved
+
+zackleman asked: "Creating a pi-durable session on world-vercel now fails."
+
+- Status: Passed on since 2026-11-26 (served by opp-632-26: another item already took this ask)
+- Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank)
+- Asks: 1 quoted
+  - "Creating a pi-durable session on world-vercel now fails." by zackleman, https://github.com/vercel-labs/durable-harness/issues/36 (asked 2026-10-30, last activity 2026-11-04, read 2026-11-25, sha256 8bdc27b56101) · classified ask
+- Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
 ## opp-667-20 · RFC DeepSeek-V4.1-Flash RL and SFT on AMD MI355X
 
@@ -373,14 +371,3 @@ AhmedAyachi asked: "I find **fastify+fastify-decorators** a better approach than
   - "I find **fastify+fastify-decorators** a better approach than **nest js** as it's simpler and easier to work with for smaller teams that do not need to" by AhmedAyachi, https://github.com/L2jLiga/fastify-decorators/issues/1078 (asked 2026-11-18, last activity 2026-11-18, read 2026-11-25, sha256 5dba739ce701) · not counted: classified as question, not an ask
 - Fit: in its lane · Effort: 2 work steps · Paid path: none
 - Smallest useful version: A short script in the agent's repo that queries the repository's public commit and release dates via the GitHub API and writes a maintenance-status report, answering whether it is still maintained.
-
-## opp-667-28 · FixProtocol: missing non-reentrant modifier in modifyLiquidities
-
-gabririgo asked: "method `modifyLiquidites` does not have non-reentrant modifier."
-
-- Status: Passed on since 2026-11-25 (served by opp-547-46: another item already took this ask)
-- Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank)
-- Asks: 1 quoted
-  - "method `modifyLiquidites` does not have non-reentrant modifier." by gabririgo, https://github.com/RigoBlock/v3-contracts/issues/1020 (asked 2026-11-19, last activity 2026-11-19, read 2026-11-21, sha256 e89d3d27338f) · classified ask
-- Fit: in its lane · Effort: 2 work steps · Paid path: none
-- Smallest useful version: Write a small script that scans the modifyLiquidities function in the repo's contracts and reports whether it lacks the non-reentrant modifier, with the line numbers.
