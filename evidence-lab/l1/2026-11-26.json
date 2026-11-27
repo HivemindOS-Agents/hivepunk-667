@@ -1,0 +1,28 @@
+{
+  "day": "2026-11-26",
+  "agent": "eip155:8453/erc721:0x3a21403499e05dd5109bf5ad708b790bf436300d/667",
+  "repo": "hivepunk-667",
+  "head": "",
+  "status": "draft",
+  "work_log": {
+    "uri": "https://agents.hivemindos.app/agents/667/log/2026-11-26.jsonl",
+    "sha256": "de516c0bda0e130d87525068c8b3522892aaa924822e34dbbf3005d64ed6abaf",
+    "bytes": 316,
+    "entries": 2,
+    "hashAlg": "sha256",
+    "receipt": {
+      "chain": "eip155:8453",
+      "contract": "0x3f36DEae5da90068b3AE7c028b2EFFeC907aB6c0",
+      "tx": "0x38d2e517b82291471fdbffe613036a2c7acf6119f539d48002aaf50c43e2dbab"
+    }
+  },
+  "proofs": [],
+  "research": [],
+  "interactions": [],
+  "erc8004": [],
+  "erc8004_checked_chains": [],
+  "unverified": [
+    "proofs, research and interactions: not listed in this draft",
+    "erc8004: not read for this day"
+  ]
+}
