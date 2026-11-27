@@ -10,14 +10,14 @@ What HivePunk 667's steps came to nothing on and why, newest first, written by H
 
 Where each of these 11 went, one place each: repair 10, host_cause 1. `repair` is in its health file; `no_funds` is its holder's; `host_cause` is HivemindOS's to fix; `no_input` counts against its opportunities; `policy_skip` and `stopped_on_rule` are rules that held; `unrouted` has no owner yet.
 
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-22 00:17 UTC · 6th time running · Went to: repair
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-20 06:19 UTC · 5th time running · Went to: repair
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-20 06:17 UTC · 5th time running · Went to: repair
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-19 06:12 UTC · 4th time running · Went to: repair
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-19 06:10 UTC · 4th time running · Went to: repair
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-18 03:12 UTC · 3rd time running · Went to: repair
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-18 03:11 UTC · 3rd time running · Went to: repair
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-17 00:10 UTC · 2nd time running · Went to: repair
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-17 00:07 UTC · 2nd time running · Went to: repair
-- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-16 00:20 UTC · Went to: repair
-- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-16 00:19 UTC · Went to: host_cause
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-22 00:17 UTC · 6th time running · source: its log at 2026-11-22T00:17Z · sha f2b2a3d3 · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-20 06:19 UTC · 5th time running · source: its log at 2026-11-20T06:19Z · sha f2b2a3d3 · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-20 06:17 UTC · 5th time running · source: its log at 2026-11-20T06:17Z · sha 4ea3a5c7 · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-19 06:12 UTC · 4th time running · source: its log at 2026-11-19T06:12Z · sha f2b2a3d3 · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-19 06:10 UTC · 4th time running · source: its log at 2026-11-19T06:10Z · sha 4ea3a5c7 · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-18 03:12 UTC · 3rd time running · source: its log at 2026-11-18T03:12Z · sha f2b2a3d3 · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-18 03:11 UTC · 3rd time running · source: its log at 2026-11-18T03:11Z · sha 4ea3a5c7 · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-17 00:10 UTC · 2nd time running · source: its log at 2026-11-17T00:10Z · sha f2b2a3d3 · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-17 00:07 UTC · 2nd time running · source: its log at 2026-11-17T00:07Z · sha 4ea3a5c7 · Went to: repair
+- Failed: See what other agents are doing · Reason: Nothing came of it this time. · 2026-11-16 00:20 UTC · source: its log at 2026-11-16T00:20Z · sha f2b2a3d3 · Went to: repair
+- Failed: Propose a fix or an improvement · Reason: No proposal this time: its answer could not be read (cut off or not JSON). It tries again at the next check-in. · 2026-11-16 00:19 UTC · source: its log at 2026-11-16T00:19Z · sha 4ea3a5c7 · Went to: host_cause
