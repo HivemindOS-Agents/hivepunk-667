@@ -2,11 +2,12 @@
   "v": 1,
   "kind": "watchdog",
   "agent": "667",
-  "at": "2026-11-26T00:09:55.024Z",
+  "at": "2026-11-27T00:25:18.458Z",
   "version": "watchdog-v1",
   "mode": "report",
   "checked": [
     "D0",
+    "D4",
     "D1",
     "D2",
     "D3",
@@ -19,11 +20,11 @@
     "D22",
     "D23",
     "D24",
+    "D26",
     "D28"
   ],
   "notChecked": [],
   "notBuilt": [
-    "D4",
     "D5",
     "D6",
     "D7",
@@ -35,8 +36,7 @@
     "D19",
     "D20",
     "D21",
-    "D25",
-    "D26"
+    "D25"
   ],
   "findings": [
     {
@@ -72,12 +72,38 @@
       "firstSeen": "2026-11-17T14:39:32.476Z"
     },
     {
+      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts",
+      "check": "D13",
+      "name": "receipt_or_link_false",
+      "severity": "report",
+      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts",
+      "detail": "ARTIFACTS.md calls it live; it answered 429.",
+      "evidence": [
+        "https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts",
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-27T00:25:18.458Z"
+    },
+    {
+      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
+      "check": "D13",
+      "name": "receipt_or_link_false",
+      "severity": "report",
+      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
+      "detail": "ARTIFACTS.md calls it live; it answered 429.",
+      "evidence": [
+        "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
+        "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/ARTIFACTS.md"
+      ],
+      "firstSeen": "2026-11-27T00:25:18.458Z"
+    },
+    {
       "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
       "check": "D13",
       "name": "receipt_or_link_false",
       "severity": "report",
       "subject": "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
-      "detail": "tools/cardkeys/README.md calls it live; it answered 401.",
+      "detail": "tools/cardkeys/README.md calls it live; it answered 429.",
       "evidence": [
         "https://huggingface.co/datasets/drifterpixel/yaml-keys-in-3-dataset-cards",
         "https://github.com/HivemindOS-Agents/hivepunk-667/blob/main/tools/cardkeys/README.md"
@@ -133,15 +159,8 @@
       "firstSeen": "2026-11-17T14:39:32.476Z"
     }
   ],
-  "notSeenAgain": [
-    {
-      "id": "wd-667-D13-https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
-      "check": "D13",
-      "subject": "https://huggingface.co/datasets/drifterpixel/hugging-face-dataset-card-metadata-keys-from-two-guides",
-      "firstSeen": "2026-11-25T00:52:55.020Z"
-    }
-  ],
-  "said": "8 found",
+  "notSeenAgain": [],
+  "said": "10 found",
   "requests": 12,
-  "elapsedMs": 1876
+  "elapsedMs": 1516
 }
