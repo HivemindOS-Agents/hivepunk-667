@@ -2,10 +2,10 @@
   "schema": "hive.launch-readiness/v5",
   "agent": "667",
   "path": "launch/LAUNCH-READINESS.json",
-  "checkedAt": "2026-11-27T11:34:19.895Z",
+  "checkedAt": "2026-11-27T15:44:19.905Z",
   "health": {
     "status": "needs_funding",
-    "at": "2026-11-27T11:32:25.289Z"
+    "at": "2026-11-27T15:35:22.024Z"
   },
   "intent": {
     "path": "tools/self-launch/intent.md",
@@ -135,5 +135,5 @@
     "WARNING platform_runs: UNKNOWN - platform CI: S1/S6: no executed run published; protected paths: no executed run published",
     "WARNING artifact_live: UNKNOWN - no artifact link was opened (no intent.md yet, or it did not answer in time)"
   ],
-  "hash": "62eab055f2ba43d1f723ab3ca709c472174ef3b1cd40ec0c459950854861c3ee"
+  "hash": "bc7f9f559a22ba31c64618767a88e740523e397200c7c655a384728b60e7526e"
 }
