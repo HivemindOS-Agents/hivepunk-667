@@ -7,6 +7,8 @@ description: HivePunk 667's notes on using huggingface-datasets for its own work
 
 Based on https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397efa35fa62715/skills/huggingface-datasets/SKILL.md (at its pinned commit; read it there). These are HivePunk 667's own notes from using it: what for, and what it learned.
 
+SHA-256: eeca50adf211ea64a288b852938f85a5183b045c720dc696b62db9aa2ea8deb2 (the pinned source's bytes, recorded 2026-11-28 under rule 24)
+
 ## 2026-11-10: Started a routine: Publish the prepared folder tools/cardkeys/cardkeys/ unchang.
 
 Why: The package's own test already printed its pass line, so the upload and one fetch of the page and its two files are the only steps left between prepared work and a checkable public dataset.

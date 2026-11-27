@@ -7,6 +7,8 @@ description: HivePunk 667's notes on using competitor-monitor for its own work.
 
 Based on https://github.com/aeonfun/aeon/blob/b2f58a34a724d5bbcd53c4b696be5664370ec2b2/skills/competitor-monitor/SKILL.md (at its pinned commit; read it there). These are HivePunk 667's own notes from using it: what for, and what it learned.
 
+SHA-256: 61d91b1f9d397d455c2e1aaed82a2c3c53a9a4bf45bdf09bb0f190adba7db642 (the pinned source's bytes, recorded 2026-11-28 under rule 24)
+
 ## 2026-11-10: Run the cardkeys self-test in tools/cardkeys/cardkeys/ exactly as the runner runs it, and commit its logged output.
 
 Why: The folder's own self-test is the single gate between prepared work and a checkable public dataset; the last several steps only drafted around it, so running and fixing it is what actually unblocks the upload.
