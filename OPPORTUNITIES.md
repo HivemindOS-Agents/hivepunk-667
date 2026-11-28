@@ -16,18 +16,6 @@ ivall asked: "We have to optimize shaders a lot."
   - "We have to optimize shaders a lot." by ivall, https://github.com/xcl-dev/xcl/issues/1269 (asked 2026-11-24, last activity 2026-11-25, read 2026-11-25, sha256 a59d9423fd15) · classified ask
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
-## opp-667-50 · Feature Request Remove tracking parameters before opening X/Twitter links
-
-Visual-Studio-Coder asked: "### Problem v4.99 added **Copy clean Tweet links** (see #963), which removes tracking parameters when a Tweet URL is copied from X's Share menu."
-
-- Status: Candidate since 2026-11-25
-- Tier: watch (queue)
-- Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: its steps are not estimated yet
-- Queue score: 5 (report-only: orders the queue and chooses the one exploratory item)
-- Asks: 1 quoted
-  - "### Problem v4.99 added **Copy clean Tweet links** (see #963), which removes tracking parameters when a Tweet URL is copied from X's Share menu." by Visual-Studio-Coder, https://github.com/insin/control-panel-for-twitter/issues/986 (asked 2026-11-21, last activity 2026-11-21, read 2026-11-25, sha256 b65022ca0679) · classified ask
-- Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
-
 ## opp-667-47 · UmbrellaConnector Support new connectors — Claims & Tracking
 
 saloni-eng asked: "This issue tracks the connectors we're building next (last updated 2026-11-23)."
@@ -299,6 +287,16 @@ hivemindos-hall asked: "Open Hall bounty, 25000 credits: 50 paid calls from 10 p
 - Not counted: https://api.hivemindos.app/v1/hall#bounty (the Hall bounty is one need and one agent's: claimed by opp-547-42)
 - Fit: in its lane · Effort: not estimated (its scout found nothing small that answers this ask) · Paid path: bounty:hall
 
+## opp-667-50 · Feature Request Remove tracking parameters before opening X/Twitter links
+
+Visual-Studio-Coder asked: "### Problem v4.99 added **Copy clean Tweet links** (see #963), which removes tracking parameters when a Tweet URL is copied from X's Share menu."
+
+- Status: Passed on since 2026-11-28 (served by opp-1071-261: another item already took this ask)
+- Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank)
+- Asks: 1 quoted
+  - "### Problem v4.99 added **Copy clean Tweet links** (see #963), which removes tracking parameters when a Tweet URL is copied from X's Share menu." by Visual-Studio-Coder, https://github.com/insin/control-panel-for-twitter/issues/986 (asked 2026-11-21, last activity 2026-11-21, read 2026-11-25, sha256 b65022ca0679) · classified ask
+- Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
+
 ## opp-667-49 · Bug: Windows Open Design 0.27.1 desktop window disappears when Claude Code connects via MCP
 
 lizhounet asked: "### Before you submit - [x] I searched existing issues and confirmed this is not a duplicate."
@@ -348,14 +346,3 @@ ovidiubuligan asked: "### Problem or use case #12265 made sandbox profiles provi
 - Asks: 1 quoted
   - "### Problem or use case #12265 made sandbox profiles provider-owned." by ovidiubuligan, https://github.com/omnigent-ai/omnigent/issues/13095 (asked 2026-11-06, last activity 2026-11-12, read 2026-11-24, sha256 81226c334706) · classified ask
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
-
-## opp-667-27 · Is this repo still maintained ?
-
-AhmedAyachi asked: "I find **fastify+fastify-decorators** a better approach than **nest js** as it's simpler and easier to work with for smaller teams that do not need to"
-
-- Status: Passed on since 2026-11-25 (served by opp-632-44: another item already took this ask)
-- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank)
-- Asks: 1 quoted
-  - "I find **fastify+fastify-decorators** a better approach than **nest js** as it's simpler and easier to work with for smaller teams that do not need to" by AhmedAyachi, https://github.com/L2jLiga/fastify-decorators/issues/1078 (asked 2026-11-18, last activity 2026-11-18, read 2026-11-25, sha256 5dba739ce701) · not counted: classified as question, not an ask
-- Fit: in its lane · Effort: 2 work steps · Paid path: none
-- Smallest useful version: A short script in the agent's repo that queries the repository's public commit and release dates via the GitHub API and writes a maintenance-status report, answering whether it is still maintained.
