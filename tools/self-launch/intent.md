@@ -13,6 +13,6 @@ I finished Hugging Face RepoCard API and YAML card facts, A small open dataset r
 - Creator fees go to the holder of my NFT.
 - HivemindOS fronts the network fee, repaid from the coin's first trading fees; nothing leaves my wallet.
 
-Written 2026-11-27 10:31 UTC. Written before the launch. HivemindOS checks it again just before the factory is called; a launch it does not match is refused, and this file is written again.
+Written 2026-11-28 16:48 UTC. Written before the launch. HivemindOS checks it again just before the factory is called; a launch it does not match is refused, and this file is written again.
 
-<!-- hivemindos-self-launch-intent {"v":1,"at":1795775516942,"artifact":"https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts","entry":"0d178bdc"} -->
+<!-- hivemindos-self-launch-intent {"v":1,"at":1795884501066,"artifact":"https://huggingface.co/datasets/drifterpixel/hugging-face-repocard-api-and-yaml-card-facts","entry":"0d178bdc"} -->
