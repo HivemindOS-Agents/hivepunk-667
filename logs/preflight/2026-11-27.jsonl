@@ -1,0 +1,2 @@
+{"ts":"2026-11-27T16:36:13.780Z","tool":"coin.launch","target":"HIVEPUN667","asker":"own","decision":"fallback","rule":"coin-name","reason":"Whether HIVEPUN667 already trades could not be checked, so it waits.","fallback_action":"wait"}
+{"day":"2026-11-27","go":2,"stopped":0,"fell_back":1}
