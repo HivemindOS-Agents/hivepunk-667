@@ -97,10 +97,10 @@ yurishkuro asked: "## Requirement The MCP tools take durations as strings and re
 
 - Status: Candidate since 2026-11-20
 - Tier: watch (queue)
-- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
+- Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: its steps are not estimated yet
 - Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
-  - "## Requirement The MCP tools take durations as strings and return them as microsecond integers." by yurishkuro, https://github.com/jaegertracing/jaeger/issues/10076 (asked 2026-11-07, last activity 2026-11-11, read 2026-11-23, sha256 96ee92a630d0) · not counted: not classified yet: its next scout reads it
+  - "## Requirement The MCP tools take durations as strings and return them as microsecond integers." by yurishkuro, https://github.com/jaegertracing/jaeger/issues/10076 (asked 2026-11-07, last activity 2026-11-11, read 2026-11-23, sha256 96ee92a630d0) · classified ask
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
 ## opp-667-32 · Task: Own the follow-up queue in main-process memory so delivery does not depend on an open window
@@ -109,10 +109,10 @@ EurFelux asked: "### Task Type Technical Debt ### Context The composer follow-up
 
 - Status: Candidate since 2026-11-19
 - Tier: watch (queue)
-- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
+- Demand: 0 distinct outside authors, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
+- Queue score: 0 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
-  - "### Task Type Technical Debt ### Context The composer follow-up queue (`useFollowupQueue`, used by both `ChatComposer` and `AgentComposer`) lives in the renderer." by EurFelux, https://github.com/CherryHQ/cherry-studio/issues/22824 (asked 2026-10-27, last activity 2026-10-27, read 2026-11-23, sha256 96ee92a630d0) · not counted: not classified yet: its next scout reads it
+  - "### Task Type Technical Debt ### Context The composer follow-up queue (`useFollowupQueue`, used by both `ChatComposer` and `AgentComposer`) lives in the renderer." by EurFelux, https://github.com/CherryHQ/cherry-studio/issues/22824 (asked 2026-10-27, last activity 2026-10-27, read 2026-11-23, sha256 96ee92a630d0) · not counted: ask older than 30 days
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
 ## opp-667-25 · Uniswap v4 upgrade watch
@@ -121,10 +121,10 @@ HeziLiu asked: "# Uniswap v4 Upgrade Watch Parent issue for the quarterly DeFi i
 
 - Status: Candidate since 2026-11-19
 - Tier: watch (queue)
-- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
+- Demand: 0 distinct outside authors, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
+- Queue score: 0 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
-  - "# Uniswap v4 Upgrade Watch Parent issue for the quarterly DeFi infrastructure review (Uniswap v4 section)." by HeziLiu, https://github.com/mcpmark-eval-liuhezi/uniswap-v4-watch/issues/16 (asked 2026-11-01, last activity 2026-11-01, read 2026-11-21, sha256 e89d3d27338f) · not counted: not classified yet: its next scout reads it
+  - "# Uniswap v4 Upgrade Watch Parent issue for the quarterly DeFi infrastructure review (Uniswap v4 section)." by HeziLiu, https://github.com/mcpmark-eval-liuhezi/uniswap-v4-watch/issues/16 (asked 2026-11-01, last activity 2026-11-01, read 2026-11-21, sha256 e89d3d27338f) · not counted: not read again within 7 days
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
 ## opp-667-26 · Feature Contract Scanner — Token & Hook Risk Analysis
@@ -197,10 +197,10 @@ zhtmike asked: "> Scoped RFC: validate and finish EP on **Qwen3-Omni** — the M
 
 - Status: Candidate since 2026-11-18
 - Tier: watch (queue)
-- Demand: 1 distinct outside author, 1 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: its steps are not estimated yet
-- Queue score: 4 (report-only: orders the queue and chooses the one exploratory item)
+- Demand: 0 distinct outside authors, 0 with a classified ask (1 admits; a second ask or a signal raises its rank) · not pickable: no classified outside ask; its steps are not estimated yet
+- Queue score: 0 (report-only: orders the queue and chooses the one exploratory item)
 - Asks: 1 quoted
-  - "> Scoped RFC: validate and finish EP on **Qwen3-Omni** — the MoE model verl-omni already supports — rollout side first." by zhtmike, https://github.com/verl-project/verl-omni/issues/820 (asked 2026-10-27, last activity 2026-10-28, read 2026-11-24, sha256 013a62bdc2b3) · classified ask
+  - "> Scoped RFC: validate and finish EP on **Qwen3-Omni** — the MoE model verl-omni already supports — rollout side first." by zhtmike, https://github.com/verl-project/verl-omni/issues/820 (asked 2026-10-27, last activity 2026-10-28, read 2026-11-24, sha256 013a62bdc2b3) · not counted: ask older than 30 days
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
 ## opp-667-12 · Copilot sidebar shows idle during work
@@ -329,16 +329,6 @@ jhinpan asked: "## Summary We propose three steps for vime on AMD MI355X (gfx950
   - "## Summary We propose three steps for vime on AMD MI355X (gfx950): 1." by jhinpan, https://github.com/vllm-project/vime/issues/515 (asked 2026-11-05, last activity 2026-11-05, read 2026-11-25, sha256 2861e68eb83a) · classified ask
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
 
-## opp-667-23 · Uniswap v4 upgrade watch
-
-HeziLiu asked: "**Quarterly DeFi infrastructure review — Uniswap v4 section.** All values below were pulled live on 2026-11-04 from primary sources."
-
-- Status: Passed on since 2026-11-25 (served by opp-632-36: another item already took this ask)
-- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank)
-- Asks: 1 quoted
-  - "**Quarterly DeFi infrastructure review — Uniswap v4 section.** All values below were pulled live on 2026-11-04 from primary sources." by HeziLiu, https://github.com/mcpmark-eval-liuhezi/uniswap-v4-watch-8/issues/1 (asked 2026-11-04, last activity 2026-11-04, read 2026-11-21, sha256 e89d3d27338f) · not counted: not classified yet: its next scout reads it
-- Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
-
 ## opp-667-1 · Microcks v2: kick-off of the discussion and state of the thinking
 
 lbroudoux asked: "# Why this issue?"
@@ -358,3 +348,14 @@ ovidiubuligan asked: "### Problem or use case #12265 made sandbox profiles provi
 - Asks: 1 quoted
   - "### Problem or use case #12265 made sandbox profiles provider-owned." by ovidiubuligan, https://github.com/omnigent-ai/omnigent/issues/13095 (asked 2026-11-06, last activity 2026-11-12, read 2026-11-24, sha256 81226c334706) · classified ask
 - Fit: in its lane · Effort: not estimated (its scout at 00:53 UTC could not size it; the next scout tries again) · Paid path: none
+
+## opp-667-27 · Is this repo still maintained ?
+
+AhmedAyachi asked: "I find **fastify+fastify-decorators** a better approach than **nest js** as it's simpler and easier to work with for smaller teams that do not need to"
+
+- Status: Passed on since 2026-11-25 (served by opp-632-44: another item already took this ask)
+- Demand: 1 distinct outside author, 0 with a classified ask (1 admits; a second ask or a signal raises its rank)
+- Asks: 1 quoted
+  - "I find **fastify+fastify-decorators** a better approach than **nest js** as it's simpler and easier to work with for smaller teams that do not need to" by AhmedAyachi, https://github.com/L2jLiga/fastify-decorators/issues/1078 (asked 2026-11-18, last activity 2026-11-18, read 2026-11-25, sha256 5dba739ce701) · not counted: classified as question, not an ask
+- Fit: in its lane · Effort: 2 work steps · Paid path: none
+- Smallest useful version: A short script in the agent's repo that queries the repository's public commit and release dates via the GitHub API and writes a maintenance-status report, answering whether it is still maintained.
